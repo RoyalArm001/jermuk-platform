@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "sv_taxi_jermuk",
+      "type": "services",
+      "title": "Տաքսի ծառայություն (Ջերմուկ)",
+      "subtitle": "Ծառայություն",
+      "rating": null,
+      "priceFrom": null,
+      "address": "Ջերմուկ, Հայաստան",
+      "cover": "/images/f1.jpg",
+      "gallery": [
+        "/images/f1.jpg"
+      ],
+      "tags": [
+        "ծառայություն"
+      ],
+      "description": "Քաղաքային և միջքաղաքային տաքսի ծառայություն։",
+      "_meta": {
+        "phones": [
+          "+374XXXXXXXX"
+        ]
+      }
+    },
+    {
+      "id": "sv_tour_guide",
+      "type": "services",
+      "title": "Էքսկուրսավար",
+      "subtitle": "Ծառայություն",
+      "rating": null,
+      "priceFrom": null,
+      "address": "Ջերմուկ, Հայաստան",
+      "cover": "/images/f1.jpg",
+      "gallery": [
+        "/images/f1.jpg"
+      ],
+      "tags": [
+        "ծառայություն"
+      ],
+      "description": "Անհատական և խմբային էքսկուրսիաներ Ջերմուկում։",
+      "_meta": {
+        "phones": [
+          "+374XXXXXXXX"
+        ]
+      }
+    },
+    {
+      "id": "sv_photo_drone",
+      "type": "services",
+      "title": "Ֆոտո / Դռոն ծառայություն",
+      "subtitle": "Ծառայություն",
+      "rating": null,
+      "priceFrom": null,
+      "address": "Ջերմուկ, Հայաստան",
+      "cover": "/images/f1.jpg",
+      "gallery": [
+        "/images/f1.jpg"
+      ],
+      "tags": [
+        "ծառայություն"
+      ],
+      "description": "Մասնագիտական լուսանկարահանում և դռոն նկարահանում։",
+      "_meta": {
+        "phones": [
+          "+374XXXXXXXX"
+        ]
+      }
+    }
+  ]
+}

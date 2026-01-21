@@ -1,0 +1,49 @@
+{
+  "types": [
+    "hotels",
+    "houses",
+    "places",
+    "food",
+    "tours",
+    "services"
+  ],
+  "items": [
+    {
+      "id": "hs_cozy_house_demo",
+      "type": "houses",
+      "title": "Cozy House (Demo)",
+      "subtitle": "Վարձու տուն • 2 ննջասենյակ",
+      "rating": 4.5,
+      "priceFrom": 18000,
+      "address": "Ջերմուկ",
+      "cover": "/images/r1.jpg",
+      "gallery": [
+        "/images/r1.jpg",
+        "/images/r2.jpg"
+      ],
+      "tags": [
+        "ընտանեկան",
+        "խոհանոց"
+      ],
+      "description": "Տաք, հարմարավետ տուն՝ փոքր ընտանիքների համար։"
+    },
+    {
+      "id": "fd_cafe_demo",
+      "type": "food",
+      "title": "Cafe (Demo)",
+      "subtitle": "Սրճարան • Նախաճաշ",
+      "rating": 4.4,
+      "priceFrom": null,
+      "address": "Ջերմուկ, կենտրոն",
+      "cover": "/images/f1.jpg",
+      "gallery": [
+        "/images/f1.jpg"
+      ],
+      "tags": [
+        "սուրճ",
+        "նախաճաշ"
+      ],
+      "description": "Թեթև ու համեղ տարբերակներ՝ զբոսանքից առաջ կամ հետո։"
+    }
+  ]
+}
