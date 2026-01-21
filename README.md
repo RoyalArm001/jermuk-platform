@@ -51,5 +51,3 @@ npm run preview
 
 ## v1.4.1 update
 - Home hero: big background + right-side cards + auto-rotate 10s
-# jermuk-platform
-# jermuk-platform
