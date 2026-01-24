@@ -3,8 +3,8 @@
   "short_name": "Jermuk",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f7f8fa",
-  "theme_color": "#0ea5a8",
+  "background_color": "#061427",
+  "theme_color": "#2dd4bf",
   "lang": "hy",
   "icons": [
     {

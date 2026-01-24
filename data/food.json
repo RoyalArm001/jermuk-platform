@@ -1,0 +1,188 @@
+[
+  {
+    "id": "jermuk-baghaberd",
+    "type": "restaurant",
+    "name": "Baghaberd Restaurant",
+    "rating": 5.0,
+    "reviews_count": 7,
+    "address": "Shahumyan 24/4, Jermuk",
+    "phone": "+37498101636",
+    "social": {
+      "facebook": "https://www.facebook.com/restaurantbaghaberd/",
+      "instagram": null,
+      "website": null
+    },
+    "food_type": [
+      "Armenian",
+      "Grill",
+      "Traditional"
+    ],
+    "menu_keywords": [
+      "խորոված",
+      "տոլմա",
+      "խաշլամա",
+      "քաբաբ",
+      "թարմ աղցաններ",
+      "տնական հաց"
+    ],
+    "price_level": "medium",
+    "images": [
+      "https://www.facebook.com/restaurantbaghaberd/photos",
+      "https://scontent.cdninstagram.com/v/baghaberd.jpg"
+    ],
+    "description": "Բարձր գնահատված հայկական ռեստորան՝ տնային մթնոլորտով և ավանդական ուտեստներով։"
+  },
+  {
+    "id": "jermuk-forte",
+    "type": "restaurant",
+    "name": "Forte Restaurant",
+    "rating": 4.6,
+    "reviews_count": 68,
+    "address": "Shahumyan 21, Jermuk",
+    "phone": "+37494555800",
+    "social": {
+      "facebook": null,
+      "instagram": null,
+      "website": "http://forte.bonee.net/"
+    },
+    "food_type": [
+      "European",
+      "BBQ",
+      "Armenian"
+    ],
+    "menu_keywords": [
+      "ստեյք",
+      "բարբեքյու",
+      "հավի ուտեստներ",
+      "սուպերներ",
+      "պաստա",
+      "աղցաններ"
+    ],
+    "price_level": "medium",
+    "images": [
+      "http://forte.bonee.net/images/restaurant1.jpg",
+      "http://forte.bonee.net/images/restaurant2.jpg"
+    ],
+    "description": "Ժամանակակից ռեստորան՝ լայն մենյուով և որակյալ սպասարկմամբ։"
+  },
+  {
+    "id": "jermuk-jermuk-restaurant",
+    "type": "restaurant",
+    "name": "Jermuk Restaurant",
+    "rating": 5.0,
+    "reviews_count": 14,
+    "address": "Shahumyan 22/2, Jermuk",
+    "phone": "+37495011020",
+    "social": {
+      "facebook": "https://www.facebook.com/Jermukresto/",
+      "instagram": "https://www.instagram.com/explore/locations/jermuk-restaurant/",
+      "website": null
+    },
+    "food_type": [
+      "Armenian",
+      "Home style"
+    ],
+    "menu_keywords": [
+      "տնական ճաշ",
+      "խորոված",
+      "ապուրներ",
+      "տոլմա",
+      "քյուֆթա"
+    ],
+    "price_level": "low-medium",
+    "images": [
+      "https://www.facebook.com/Jermukresto/photos",
+      "https://scontent.cdninstagram.com/v/jermukresto.jpg"
+    ],
+    "description": "Փոքր, բայց շատ սիրված ռեստորան՝ հայկական ավանդական խոհանոցով։"
+  },
+  {
+    "id": "jermuk-terrace",
+    "type": "restaurant",
+    "name": "Jermuk Terrace Restaurant",
+    "rating": 4.0,
+    "reviews_count": 4,
+    "address": "Shahumyan 9/1, Jermuk",
+    "phone": "+37498205057",
+    "social": {
+      "facebook": "https://www.facebook.com/JermukTerraceRestaurant/",
+      "instagram": null,
+      "website": null
+    },
+    "food_type": [
+      "European",
+      "Armenian"
+    ],
+    "menu_keywords": [
+      "սթեյք",
+      "աղցաններ",
+      "գինի",
+      "աղանդեր"
+    ],
+    "price_level": "medium",
+    "images": [
+      "https://www.facebook.com/JermukTerraceRestaurant/photos"
+    ],
+    "description": "Տեսարանով ռեստորան՝ հարմար հանգիստ ճաշի կամ ընթրիքի համար։"
+  },
+  {
+    "id": "jermuk-cablecar-cafe",
+    "type": "cafe",
+    "name": "Jermuk Cable Car Cafe",
+    "rating": 4.8,
+    "reviews_count": 25,
+    "address": "Cable Car Area, Jermuk",
+    "phone": "+37494003144",
+    "social": {
+      "facebook": null,
+      "instagram": null,
+      "website": null
+    },
+    "food_type": [
+      "Cafe",
+      "Snacks"
+    ],
+    "menu_keywords": [
+      "սուրճ",
+      "թեյ",
+      "սենդվիչ",
+      "թեթև սնունդ"
+    ],
+    "price_level": "low",
+    "images": [
+      "https://media-cdn.tripadvisor.com/media/photo-jermuk-cablecar.jpg"
+    ],
+    "description": "Սրճարան ճոպանուղու մոտ՝ գեղեցիկ բնության տեսարանով։"
+  },
+  {
+    "id": "jermuk-grand-cafe",
+    "type": "cafe",
+    "name": "Grand Cafe Jermuk",
+    "rating": 4.5,
+    "reviews_count": 10,
+    "address": "Central Park Area, Jermuk",
+    "phone": null,
+    "social": {
+      "facebook": null,
+      "instagram": "https://www.instagram.com/grandcafejermuk/",
+      "website": null
+    },
+    "food_type": [
+      "Cafe",
+      "Desserts"
+    ],
+    "menu_keywords": [
+      "սուրճ",
+      "կապուչինո",
+      "տորթ",
+      "աղանդեր",
+      "կրուասան"
+    ],
+    "price_level": "low-medium",
+    "images": [
+      "https://scontent.cdninstagram.com/v/grandcafejermuk1.jpg",
+      "https://scontent.cdninstagram.com/v/grandcafejermuk2.jpg"
+    ],
+    "description": "Սրճարան՝ քաղցրեղենով և առավոտյան սուրճի համար հարմար միջավայրով։"
+  }
+]

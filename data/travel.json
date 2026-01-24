@@ -1,0 +1,183 @@
+{
+  "attractions": [
+    {
+      "id": "att_ropeway",
+      "type": "attraction",
+      "name_hy": "Ջերմուկի ճոպանուղի",
+      "name_en": "Jermuk Ropeway",
+      "tags": [
+        "panorama",
+        "family",
+        "nature",
+        "views"
+      ],
+      "rating_note": "Popular attraction; ratings vary by platform",
+      "address_note": "Ջերմուկ, ճոպանուղու կայան (կարճ տաքսիով կենտրոնից)",
+      "ticket_price_note_amd": 1500,
+      "hours_note": "Տարբեր աղբյուրներում ժամերը տարբեր են, հաստատել տեղում",
+      "activities": [
+        "տեսարան",
+        "լուսանկարչություն",
+        "կարճ զբոսանք"
+      ],
+      "photo_pages": [
+        "https://www.tripadvisor.com/Attraction_Review-g2708780-d12007028-Reviews-Ropeway-Jermuk_Vayots_Dzor_Province.html"
+      ],
+      "sources": [
+        "turn1search3"
+      ]
+    },
+    {
+      "id": "att_mineral_water_gallery",
+      "type": "attraction",
+      "name_hy": "Ջերմուկի հանքային ջրերի պատկերասրահ (Գալերեյա)",
+      "name_en": "Gallery of Mineral Water (Jermuk Mineral Water Gallery)",
+      "tags": [
+        "wellness",
+        "water",
+        "family",
+        "free"
+      ],
+      "address": "2 Myasnikyan Street, Jermuk",
+      "description_hy": "Ջերմուկի հայտնի հանքային ջրերի կետը՝ մի քանի ծորակներով, որտեղ մարդիկ համտեսում են տարբեր ջրեր։",
+      "activities": [
+        "ջրի համտես",
+        "քայլարշավ այգու կողմ",
+        "լուսանկարչություն"
+      ],
+      "photo_pages": [
+        "https://yandex.com/maps/org/gallery_of_mineral_water/185968802034/"
+      ],
+      "sources": [
+        "turn1search2",
+        "turn1search10"
+      ]
+    }
+  ],
+  "taxi_services": [
+    {
+      "id": "taxi_jermuk_taxi_fb",
+      "type": "taxi",
+      "name": "Yerevan ↔ Jermuk Taxi / Jermuk Taxi",
+      "service_area": [
+        "Jermuk",
+        "Yerevan",
+        "Vayots Dzor"
+      ],
+      "phones": [
+        "+37498399355"
+      ],
+      "email": "karenjermuk@gmail.com",
+      "notes_hy": "Ունի էջ, հաճախ նշում են նաև ֆիքսված ուղևորափոխադրում (օր. Երևան↔Ջերմուկ ժամերով). Մանրամասները՝ էջում։",
+      "social": {
+        "facebook": "https://www.facebook.com/jermuktaxi/"
+      },
+      "photo_pages": [
+        "https://www.facebook.com/jermuktaxi/"
+      ],
+      "sources": [
+        "turn2search0",
+        "turn2search16"
+      ]
+    }
+  ],
+  "offroad_rentals": [
+    {
+      "id": "offroad_jermuk_geyser_jeep",
+      "type": "offroad",
+      "name": "Jermuk Geyser Jeep Tour (Off-road Safari)",
+      "tags": [
+        "4x4",
+        "adventure",
+        "mountains",
+        "tour"
+      ],
+      "phones": [
+        "+37477221550"
+      ],
+      "notes_hy": "Off-road / jeep tour հայտարարություն (գեյզերների ուղղությամբ)։ Խորհուրդ՝ նախապես զանգել ու ճշտել գին/երթուղի/մեքենա։",
+      "photo_pages": [
+        "https://www.facebook.com/groups/1361897083950107/posts/3336175336522262/"
+      ],
+      "sources": [
+        "turn2search1"
+      ]
+    },
+    {
+      "id": "tour_operator_verona",
+      "type": "tour_operator",
+      "name": "Jermuk Verona (Tour Operator)",
+      "phones": [
+        "+37491402615",
+        "+37493402615"
+      ],
+      "notes_hy": "Տուր-օպերատոր, հաճախ կազմակերպում է շրջայցեր/երթուղիներ (տեղական տուրեր, նաև գիշերումով տարբերակներ)։",
+      "website": "https://jermukverona.am/en/touroperator/",
+      "sources": [
+        "turn2search6"
+      ]
+    }
+  ],
+  "rental_houses": [
+    {
+      "id": "rent_arte_cottages",
+      "type": "cottage_rent",
+      "name": "Arte Jermuk Cottages",
+      "address": "20 Shahumyan Street, Jermuk",
+      "phones": [
+        "+37444440449",
+        "+37493221669"
+      ],
+      "hours_note": "09:00–22:00 (նշված է աղբյուրում)",
+      "amenities_keywords": [
+        "wooden cottages",
+        "family",
+        "parking",
+        "nature"
+      ],
+      "price_level": "medium",
+      "photo_pages": [
+        "https://turn.am/en/service/arte-qotejner-jermuk/detail"
+      ],
+      "sources": [
+        "turn2search2"
+      ]
+    },
+    {
+      "id": "rent_booking_apartment_example_1",
+      "type": "apartment_rent",
+      "name": "Jermuk Apartment (Booking listing example)",
+      "notes_hy": "Սա օրինակ-լիստինգ է՝ վարձու բնակարանների համար. Կարող ենք ավելացնել տասնյակ նման լիստինգներ ըստ քո ուզած չափանիշների (rating, center, family, balcony և այլն)։",
+      "booking_url": "https://www.booking.com/hotel/am/daily-rent-in-jermuk.html",
+      "amenities_keywords": [
+        "free Wi-Fi",
+        "kitchen",
+        "parking",
+        "balcony"
+      ],
+      "sources": [
+        "turn2search3"
+      ]
+    },
+    {
+      "id": "rent_airbnb_city_page",
+      "type": "vacation_rentals_index",
+      "name": "Airbnb — Jermuk stays (index page)",
+      "notes_hy": "Ընդհանուր էջ՝ վարձակալությունների համար (շատ տարբերակներ). Կարող ենք առանձնացնել top-rated/most-booked-ը։",
+      "url": "https://www.airbnb.com/jermuk-armenia/stays",
+      "sources": [
+        "turn2search17"
+      ]
+    },
+    {
+      "id": "rent_booking_city_page",
+      "type": "vacation_rentals_index",
+      "name": "Booking — Apartments in Jermuk (index page)",
+      "notes_hy": "Ընդհանուր էջ՝ Ջերմուկի բնակարանների համար (կարող ենք ավտոմատ հավաքել top-10-ը՝ անուն, rating, հասցե, photo էջ)։",
+      "url": "https://www.booking.com/apartments/city/am/jermuk.html",
+      "sources": [
+        "turn2search7"
+      ]
+    }
+  ]
+}

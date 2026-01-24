@@ -1,14 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="hy">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jermuk Travel (v1)</title>
-    <meta name="theme-color" content="#0ea5a8" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jermuk Travel</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#061024" />
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <div class="topbar"></div>
+
+
+  <div id="splash" class="splash">
+    <div class="splash__bg"></div>
+    <div class="splash__content">
+      <div class="splash__badge">Jermuk Travel</div>
+      <h1 class="splash__title" id="splashTitle">Բարի գալուստ Ջերմուկ</h1>
+      <p class="splash__sub" id="splashSub">Քաղաք, որտեղ ջուրը բուժում է, իսկ բնությունը՝ հանգստացնում։</p>
+      <button class="splash__skip" id="splashSkip" type="button" data-i18n="skip">Skip</button>
+      <div class="splash__dots" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="app"></div>
+  <script src="./assets/js/icons.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/boot.js"></script>
+<nav class="bottom-nav" aria-label="Main navigation">
+  <a class="tab" href="#/home" data-tab="home">🏠<span data-i18n="home">Գլխավոր</span></a>
+  <a class="tab" href="#/explore" data-tab="explore">🧭<span data-i18n="explore">Քաղաքում ինչ կա</span></a>
+  <a class="tab" href="#/map" data-tab="map">🗺️<span data-i18n="map">Քարտեզ</span></a>
+</nav>
+</body>
 </html>
