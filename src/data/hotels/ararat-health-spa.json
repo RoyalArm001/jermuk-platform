@@ -1,0 +1,36 @@
+{
+  "id": "ararat-health-spa",
+  "type": "hotels",
+  "title": {
+    "hy": "Ararat Health Spa Jermuk",
+    "ru": "Ararat Health Spa Джермук",
+    "en": "Ararat Health Spa Jermuk"
+  },
+  "desc": {
+    "hy": "Առողջարանային կենտրոն՝ բուժում, սպա և հանգիստ միջավայր։",
+    "ru": "Оздоровительный центр со SPA и лечением.",
+    "en": "Health spa center with wellness and medical services."
+  },
+  "address": {
+    "hy": "Ջերմուկ",
+    "ru": "Джермук",
+    "en": "Jermuk"
+  },
+  "phone": "+37460749355",
+  "whatsapp": "37493399355",
+  "amenities": [
+    "wifi",
+    "spa",
+    "medical",
+    "restaurant"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1551887373-6bc8d96f2e20",
+    "https://images.unsplash.com/photo-1540555700478-4be289fbecef"
+  ],
+  "booking_link": "https://facebook.com/araratjermukspa",
+  "rating": 4.3,
+  "price_level": 2,
+  "status": "active",
+  "updated": "2026-01-25"
+}

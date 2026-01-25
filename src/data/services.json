@@ -1,0 +1,182 @@
+[
+  {
+    "id": "services-1",
+    "type": "services",
+    "title": {
+      "hy": "Օրինակ services 1",
+      "ru": "Пример services 1",
+      "en": "Sample services 1"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "091733633",
+    "whatsapp": "091733633",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "services-2",
+    "type": "services",
+    "title": {
+      "hy": "Օրինակ services 2",
+      "ru": "Пример services 2",
+      "en": "Sample services 2"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "091733633",
+    "whatsapp": "091733633",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "services-3",
+    "type": "services",
+    "title": {
+      "hy": "Օրինակ services 3",
+      "ru": "Пример services 3",
+      "en": "Sample services 3"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "091733633",
+    "whatsapp": "091733633",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "services-4",
+    "type": "services",
+    "title": {
+      "hy": "Օրինակ services 4",
+      "ru": "Пример services 4",
+      "en": "Sample services 4"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "091733633",
+    "whatsapp": "091733633",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "services-5",
+    "type": "services",
+    "title": {
+      "hy": "Օրինակ services 5",
+      "ru": "Пример services 5",
+      "en": "Sample services 5"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "091733633",
+    "whatsapp": "091733633",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  }
+]

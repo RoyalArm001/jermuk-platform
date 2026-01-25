@@ -1,39 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hy">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jermuk Travel</title>
-  <link rel="manifest" href="./manifest.webmanifest">
-  <meta name="theme-color" content="#061024" />
-  <link rel="icon" href="./icons/icon-192.png">
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
-<body>
-  <div class="topbar"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- === SEO PATCH (jermuktravel.com) START === -->
+    <title>Ջերմուկի հյուրանոցներ, ռեստորաններ և տեսարժան վայրեր | Jermuk Travel</title>
+    <meta name="description" content="JermukTravel.com — Ջերմուկի հյուրանոցները, վարձու տները, ռեստորանները, տեսարժան վայրերը և ծառայությունները մեկ հարթակում։" />
+    <meta name="keywords" content="Ջերմուկ հյուրանոցներ, Jermuk hotels, Jermuk spa, Ջերմուկ տեսարժան վայրեր, Jermuk attractions, Jermuk travel, JermukTravel" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://jermuktravel.com/" />
 
+    <!-- Open Graph (Facebook / Telegram / WhatsApp) -->
+    <meta property="og:title" content="Jermuk Travel — Official Guide" />
+    <meta property="og:description" content="Hotels, attractions, restaurants and services in Jermuk" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jermuktravel.com/" />
+    <meta property="og:image" content="https://jermuktravel.com/assets/og-cover.jpg" />
 
-  <div id="splash" class="splash">
-    <div class="splash__bg"></div>
-    <div class="splash__content">
-      <div class="splash__badge">Jermuk Travel</div>
-      <h1 class="splash__title" id="splashTitle">Բարի գալուստ Ջերմուկ</h1>
-      <p class="splash__sub" id="splashSub">Քաղաք, որտեղ ջուրը բուժում է, իսկ բնությունը՝ հանգստացնում։</p>
-      <button class="splash__skip" id="splashSkip" type="button" data-i18n="skip">Skip</button>
-      <div class="splash__dots" aria-hidden="true">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-  </div>
-
-  <div class="container" id="app"></div>
-  <script src="./assets/js/icons.js"></script>
-  <script src="./assets/js/app.js"></script>
-  <script src="./assets/js/boot.js"></script>
-<nav class="bottom-nav" aria-label="Main navigation">
-  <a class="tab" href="#/home" data-tab="home">🏠<span data-i18n="home">Գլխավոր</span></a>
-  <a class="tab" href="#/explore" data-tab="explore">🧭<span data-i18n="explore">Քաղաքում ինչ կա</span></a>
-  <a class="tab" href="#/map" data-tab="map">🗺️<span data-i18n="map">Քարտեզ</span></a>
-</nav>
-</body>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jermuk Travel" />
+    <meta name="twitter:description" content="Official travel guide for Jermuk" />
+    <meta name="twitter:image" content="https://jermuktravel.com/assets/og-cover.jpg" />
+    <!-- === SEO PATCH END === -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#0ea5a4" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  </head>
+  <body class="bg-[var(--bg)] text-[var(--fg)]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TouristInformationCenter",
+        "name": "Jermuk Travel",
+        "url": "https://jermuktravel.com/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Jermuk",
+          "addressCountry": "AM"
+        },
+        "telephone": "+37491733633"
+      }
+    </script>
+  </body>
 </html>

@@ -1,0 +1,49 @@
+{
+  "id": "grand-resort",
+  "type": "hotels",
+  "title": {
+    "hy": "Grand Resort Jermuk Sanatorium",
+    "ru": "Grand Resort Jermuk Sanatorium",
+    "en": "Grand Resort Jermuk Sanatorium"
+  },
+  "desc": {
+    "hy": "Բարձրակարգ առողջարանային համալիր՝ սպա, բուժում և լայն ծառայություններով։",
+    "ru": "Курортный отель высокого класса со SPA и лечением.",
+    "en": "High-end resort with spa, wellness and services."
+  },
+  "address": {
+    "hy": "Ջերմուկ, Շահումյան փ., 7/5",
+    "ru": "Джермук, ул. Шаумяна 7/5",
+    "en": "Jermuk, Shahumyan 7/5"
+  },
+  "phone": "+374 60 740000",
+  "whatsapp": "",
+  "amenities": [
+    "Wi-Fi",
+    "Spa",
+    "Pool",
+    "Medical",
+    "Restaurant",
+    "Gym"
+  ],
+  "tags": [
+    "top",
+    "premium"
+  ],
+  "gallery": [
+    "https://grandresortjermuk.com/img/62495d2f0c843844.webp",
+    "https://grandresortjermuk.com/img/86f8e8de30ba3fa4.webp",
+    "https://grandresortjermuk.com/img/25a24e06fbdfee5a.webp",
+    "https://grandresortjermuk.com/img/6c1c360eada870bd.webp",
+    "https://grandresortjermuk.com/img/d909a03a921145b1.webp",
+    "https://grandresortjermuk.com/img/3bdc43d46115b5c0.webp"
+  ],
+  "geo": {
+    "lat": 39.842,
+    "lng": 45.673
+  },
+  "website": "https://grandresortjermuk.com/",
+  "booking_link": "https://www.booking.com/hotel/am/grand-resort-jermuk.html",
+  "rating": 4.6,
+  "price_level": 4
+}

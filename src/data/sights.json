@@ -1,0 +1,182 @@
+[
+  {
+    "id": "sights-1",
+    "type": "sights",
+    "title": {
+      "hy": "Օրինակ sights 1",
+      "ru": "Пример sights 1",
+      "en": "Sample sights 1"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "sights-2",
+    "type": "sights",
+    "title": {
+      "hy": "Օրինակ sights 2",
+      "ru": "Пример sights 2",
+      "en": "Sample sights 2"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "sights-3",
+    "type": "sights",
+    "title": {
+      "hy": "Օրինակ sights 3",
+      "ru": "Пример sights 3",
+      "en": "Sample sights 3"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "sights-4",
+    "type": "sights",
+    "title": {
+      "hy": "Օրինակ sights 4",
+      "ru": "Пример sights 4",
+      "en": "Sample sights 4"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  },
+  {
+    "id": "sights-5",
+    "type": "sights",
+    "title": {
+      "hy": "Օրինակ sights 5",
+      "ru": "Пример sights 5",
+      "en": "Sample sights 5"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": null
+  }
+]

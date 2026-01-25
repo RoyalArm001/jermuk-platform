@@ -1,0 +1,46 @@
+{
+  "id": "armenia-wellness",
+  "type": "hotels",
+  "title": {
+    "hy": "Armenia Hotel, Jermuk",
+    "ru": "Armenia Hotel, Jermuk",
+    "en": "Armenia Hotel, Jermuk"
+  },
+  "desc": {
+    "hy": "Wellness հյուրանոց՝ սպա ծառայություններով և հարմարավետ հանգստով։",
+    "ru": "Wellness-отель со SPA услугами.",
+    "en": "Wellness hotel with spa services."
+  },
+  "address": {
+    "hy": "Ջերմուկ, Մյասնիկյան փ., 2",
+    "ru": "Джермук, ул. Мясникяна 2",
+    "en": "Jermuk, Myasnikyan 2"
+  },
+  "phone": "+374 60 379777",
+  "whatsapp": "37493155555",
+  "amenities": [
+    "Wi-Fi",
+    "Spa",
+    "Pool",
+    "Restaurant"
+  ],
+  "tags": [
+    "top",
+    "wellness"
+  ],
+  "gallery": [
+    "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/7b240c50.jpg?impolicy=resizecrop&ra=fit&rw=598",
+    "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/f6a93afe.jpg?impolicy=resizecrop&ra=fit&rw=297",
+    "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/50a62d6a.jpg?impolicy=resizecrop&ra=fit&rw=297",
+    "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/253b4f07.jpg?impolicy=resizecrop&ra=fit&rw=297",
+    "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/704e8725.jpg?impolicy=resizecrop&ra=fit&rw=297"
+  ],
+  "geo": {
+    "lat": 39.8399,
+    "lng": 45.6718
+  },
+  "website": "https://www.hotels.com/ho603824352/armenia-wellness-spa-hotel-jermuk-jermuk-armenia/",
+  "booking_link": "https://www.booking.com/hotel/am/armenia-wellness-spa-jermuk-2nd-building.html",
+  "rating": 4.4,
+  "price_level": 3
+}

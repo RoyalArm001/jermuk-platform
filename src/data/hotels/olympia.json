@@ -1,0 +1,50 @@
+{
+  "id": "olympia",
+  "type": "hotels",
+  "title": {
+    "hy": "Jermuk Olympia Sanatorium",
+    "ru": "Jermuk Olympia Sanatorium",
+    "en": "Jermuk Olympia Sanatorium"
+  },
+  "desc": {
+    "hy": "Առողջարանային հյուրանոց՝ հանքային ջրերով, սպա և բուժական ծառայություններով։",
+    "ru": "Санаторий-отель со SPA и лечебными программами.",
+    "en": "Sanatorium hotel with spa and wellness programs."
+  },
+  "address": {
+    "hy": "Ջերմուկ, Շահումյան փ., 16",
+    "ru": "Джермук, ул. Шаумяна 16",
+    "en": "Jermuk, Shahumyan st. 16"
+  },
+  "phone": "+374 287 22 366",
+  "whatsapp": "37494444904",
+  "amenities": [
+    "Wi-Fi",
+    "Spa",
+    "Pool",
+    "Medical",
+    "Restaurant"
+  ],
+  "tags": [
+    "top",
+    "spa"
+  ],
+  "gallery": [
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-1-1024x673.jpg",
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-10.jpg",
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-11.jpg",
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-12.jpg",
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-13.jpg",
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-15.jpg",
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-17.jpg",
+    "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-19.jpg"
+  ],
+  "geo": {
+    "lat": 39.841,
+    "lng": 45.672
+  },
+  "website": "https://jermukolympia.am/en/",
+  "booking_link": "https://www.booking.com/hotel/am/jermuk-olympia-sanatorium.html",
+  "rating": 4.4,
+  "price_level": 3
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "rentals-1",
+    "type": "rentals",
+    "title": {
+      "hy": "Օրինակ rentals 1",
+      "ru": "Пример rentals 1",
+      "en": "Sample rentals 1"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": 4.0,
+    "price_level": 3
+  },
+  {
+    "id": "rentals-2",
+    "type": "rentals",
+    "title": {
+      "hy": "Օրինակ rentals 2",
+      "ru": "Пример rentals 2",
+      "en": "Sample rentals 2"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": 4.0,
+    "price_level": 3
+  },
+  {
+    "id": "rentals-3",
+    "type": "rentals",
+    "title": {
+      "hy": "Օրինակ rentals 3",
+      "ru": "Пример rentals 3",
+      "en": "Sample rentals 3"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": 4.0,
+    "price_level": 3
+  },
+  {
+    "id": "rentals-4",
+    "type": "rentals",
+    "title": {
+      "hy": "Օրինակ rentals 4",
+      "ru": "Пример rentals 4",
+      "en": "Sample rentals 4"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": 4.0,
+    "price_level": 3
+  },
+  {
+    "id": "rentals-5",
+    "type": "rentals",
+    "title": {
+      "hy": "Օրինակ rentals 5",
+      "ru": "Пример rentals 5",
+      "en": "Sample rentals 5"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": 4.0,
+    "price_level": 3
+  }
+]

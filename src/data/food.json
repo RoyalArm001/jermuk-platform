@@ -1,0 +1,182 @@
+[
+  {
+    "id": "food-1",
+    "type": "food",
+    "title": {
+      "hy": "Օրինակ food 1",
+      "ru": "Пример food 1",
+      "en": "Sample food 1"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": 3
+  },
+  {
+    "id": "food-2",
+    "type": "food",
+    "title": {
+      "hy": "Օրինակ food 2",
+      "ru": "Пример food 2",
+      "en": "Sample food 2"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": 3
+  },
+  {
+    "id": "food-3",
+    "type": "food",
+    "title": {
+      "hy": "Օրինակ food 3",
+      "ru": "Пример food 3",
+      "en": "Sample food 3"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": 3
+  },
+  {
+    "id": "food-4",
+    "type": "food",
+    "title": {
+      "hy": "Օրինակ food 4",
+      "ru": "Пример food 4",
+      "en": "Sample food 4"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": 3
+  },
+  {
+    "id": "food-5",
+    "type": "food",
+    "title": {
+      "hy": "Օրինակ food 5",
+      "ru": "Пример food 5",
+      "en": "Sample food 5"
+    },
+    "desc": {
+      "hy": "Կարճ նկարագրություն։",
+      "ru": "Краткое описание.",
+      "en": "Short description."
+    },
+    "address": {
+      "hy": "Ջերմուկ",
+      "ru": "Джермук",
+      "en": "Jermuk"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [],
+    "tags": [
+      "demo"
+    ],
+    "gallery": [
+      "/icons/icon-512.png"
+    ],
+    "geo": {
+      "lat": null,
+      "lng": null
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": null,
+    "price_level": 3
+  }
+]

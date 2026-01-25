@@ -1,0 +1,290 @@
+[
+  {
+    "id": "olympia",
+    "type": "hotels",
+    "title": {
+      "hy": "Jermuk Olympia Sanatorium",
+      "ru": "Jermuk Olympia Sanatorium",
+      "en": "Jermuk Olympia Sanatorium"
+    },
+    "desc": {
+      "hy": "Առողջարանային հյուրանոց՝ հանքային ջրերով, սպա և բուժական ծառայություններով։",
+      "ru": "Санаторий-отель со SPA и лечебными программами.",
+      "en": "Sanatorium hotel with spa and wellness programs."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Շահումյան փ., 16",
+      "ru": "Джермук, ул. Шаумяна 16",
+      "en": "Jermuk, Shahumyan st. 16"
+    },
+    "phone": "+374 287 22 366",
+    "whatsapp": "37494444904",
+    "amenities": [
+      "Wi-Fi",
+      "Spa",
+      "Pool",
+      "Medical",
+      "Restaurant"
+    ],
+    "tags": [
+      "top",
+      "spa"
+    ],
+    "gallery": [
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-1-1024x673.jpg",
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-10.jpg",
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-11.jpg",
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-12.jpg",
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-13.jpg",
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-15.jpg",
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-17.jpg",
+      "https://armintour.com/wp-content/uploads/2022/12/Jermuk-Olympia-Sanatorium-Spa-19.jpg"
+    ],
+    "geo": {
+      "lat": 39.841,
+      "lng": 45.672
+    },
+    "website": "https://jermukolympia.am/en/",
+    "booking_link": "https://www.booking.com/hotel/am/jermuk-olympia-sanatorium.html",
+    "rating": 4.4,
+    "price_level": 3
+  },
+  {
+    "id": "grand-resort",
+    "type": "hotels",
+    "title": {
+      "hy": "Grand Resort Jermuk Sanatorium",
+      "ru": "Grand Resort Jermuk Sanatorium",
+      "en": "Grand Resort Jermuk Sanatorium"
+    },
+    "desc": {
+      "hy": "Բարձրակարգ առողջարանային համալիր՝ սպա, բուժում և լայն ծառայություններով։",
+      "ru": "Курортный отель высокого класса со SPA и лечением.",
+      "en": "High-end resort with spa, wellness and services."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Շահումյան փ., 7/5",
+      "ru": "Джермук, ул. Шаумяна 7/5",
+      "en": "Jermuk, Shahumyan 7/5"
+    },
+    "phone": "+374 60 740000",
+    "whatsapp": "",
+    "amenities": [
+      "Wi-Fi",
+      "Spa",
+      "Pool",
+      "Medical",
+      "Restaurant",
+      "Gym"
+    ],
+    "tags": [
+      "top",
+      "premium"
+    ],
+    "gallery": [
+      "https://grandresortjermuk.com/img/62495d2f0c843844.webp",
+      "https://grandresortjermuk.com/img/86f8e8de30ba3fa4.webp",
+      "https://grandresortjermuk.com/img/25a24e06fbdfee5a.webp",
+      "https://grandresortjermuk.com/img/6c1c360eada870bd.webp",
+      "https://grandresortjermuk.com/img/d909a03a921145b1.webp",
+      "https://grandresortjermuk.com/img/3bdc43d46115b5c0.webp"
+    ],
+    "geo": {
+      "lat": 39.842,
+      "lng": 45.673
+    },
+    "website": "https://grandresortjermuk.com/",
+    "booking_link": "https://www.booking.com/hotel/am/grand-resort-jermuk.html",
+    "rating": 4.6,
+    "price_level": 4
+  },
+  {
+    "id": "jermuk-hotel-spa",
+    "type": "hotels",
+    "title": {
+      "hy": "Jermuk Hotel and SPA",
+      "ru": "Jermuk Hotel and SPA",
+      "en": "Jermuk Hotel and SPA"
+    },
+    "desc": {
+      "hy": "Հյուրանոց և սպա՝ բժշկական կենտրոնով, լողավազանով և ֆիթնեսով։",
+      "ru": "Отель и SPA с медицинским центром и бассейном.",
+      "en": "Hotel & spa with medical center, pool and fitness."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Մյասնիկյան փ., 27",
+      "ru": "Джермук, ул. Мясникяна 27",
+      "en": "Jermuk, Myasnikyan 27"
+    },
+    "phone": "+374 60 441144",
+    "whatsapp": "37455441144",
+    "amenities": [
+      "Wi-Fi",
+      "Spa",
+      "Pool",
+      "Medical",
+      "Fitness",
+      "Kids"
+    ],
+    "tags": [
+      "top",
+      "family"
+    ],
+    "gallery": [
+      "https://jermukhotel.am/storage/_AR_9793-1500x1000.jpg",
+      "https://jermukhotel.am/storage/_AR_9747-1500x1000.jpg",
+      "https://jermukhotel.am/storage/_AR_9750-1500x1000.jpg",
+      "https://jermukhotel.am/storage/_AR_9756-1500x1000.jpg",
+      "https://jermukhotel.am/storage/_AR_0191-1500x1000.jpg",
+      "https://images.trvl-media.com/lodging/35000000/34520000/34516900/34516886/5c13c169.jpg?impolicy=resizecrop&ra=fit&rw=598"
+    ],
+    "geo": {
+      "lat": 39.84,
+      "lng": 45.671
+    },
+    "website": "https://jermukhotel.am/",
+    "booking_link": "https://www.booking.com/hotel/am/jermuk-hotel-and-spa.html",
+    "rating": 4.5,
+    "price_level": 3
+  },
+  {
+    "id": "ararat-health",
+    "type": "hotels",
+    "title": {
+      "hy": "Ararat Health Center (Jermuk)",
+      "ru": "Ararat Health Center (Джермук)",
+      "en": "Ararat Health Center (Jermuk)"
+    },
+    "desc": {
+      "hy": "Առողջարանային կենտրոն՝ բուժական ծառայություններով և հանգստի պայմաններով։",
+      "ru": "Оздоровительный центр со SPA и лечением.",
+      "en": "Health center with wellness programs."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Շահումյան փ., 18",
+      "ru": "Джермук, ул. Шаумяна 18",
+      "en": "Jermuk, Shahumyan 18"
+    },
+    "phone": "+374 60 749355",
+    "whatsapp": "37493399355",
+    "amenities": [
+      "Wi-Fi",
+      "Medical",
+      "Spa",
+      "Restaurant"
+    ],
+    "tags": [
+      "top",
+      "spa"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1526318472351-c75fcf070305?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551887373-6bc8d96f2e20?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "geo": {
+      "lat": 39.8415,
+      "lng": 45.6722
+    },
+    "website": "https://www.spyur.am/en/companies/ararat-mothers-and-childs-health-spa/1681/",
+    "booking_link": "https://www.spyur.am/en/companies/ararat-mothers-and-childs-health-spa/1681/",
+    "rating": 4.3,
+    "price_level": 2
+  },
+  {
+    "id": "armenia-wellness",
+    "type": "hotels",
+    "title": {
+      "hy": "Armenia Hotel, Jermuk",
+      "ru": "Armenia Hotel, Jermuk",
+      "en": "Armenia Hotel, Jermuk"
+    },
+    "desc": {
+      "hy": "Wellness հյուրանոց՝ սպա ծառայություններով և հարմարավետ հանգստով։",
+      "ru": "Wellness-отель со SPA услугами.",
+      "en": "Wellness hotel with spa services."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Մյասնիկյան փ., 2",
+      "ru": "Джермук, ул. Мясникяна 2",
+      "en": "Jermuk, Myasnikyan 2"
+    },
+    "phone": "+374 60 379777",
+    "whatsapp": "37493155555",
+    "amenities": [
+      "Wi-Fi",
+      "Spa",
+      "Pool",
+      "Restaurant"
+    ],
+    "tags": [
+      "top",
+      "wellness"
+    ],
+    "gallery": [
+      "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/7b240c50.jpg?impolicy=resizecrop&ra=fit&rw=598",
+      "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/f6a93afe.jpg?impolicy=resizecrop&ra=fit&rw=297",
+      "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/50a62d6a.jpg?impolicy=resizecrop&ra=fit&rw=297",
+      "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/253b4f07.jpg?impolicy=resizecrop&ra=fit&rw=297",
+      "https://images.trvl-media.com/lodging/19000000/18840000/18838300/18838261/704e8725.jpg?impolicy=resizecrop&ra=fit&rw=297"
+    ],
+    "geo": {
+      "lat": 39.8399,
+      "lng": 45.6718
+    },
+    "website": "https://www.hotels.com/ho603824352/armenia-wellness-spa-hotel-jermuk-jermuk-armenia/",
+    "booking_link": "https://www.booking.com/hotel/am/armenia-wellness-spa-jermuk-2nd-building.html",
+    "rating": 4.4,
+    "price_level": 3
+  },
+  {
+    "id": "moselle-armenia",
+    "type": "hotels",
+    "title": {
+      "hy": "Moselle Armenia Wellness & Medical SPA Jermuk",
+      "ru": "Moselle Armenia Wellness & Medical SPA Jermuk",
+      "en": "Moselle Armenia Wellness & Medical SPA Jermuk"
+    },
+    "desc": {
+      "hy": "5★ wellness/medical spa resort՝ բժշկական ու վերականգնողական ծրագրերով, սպա և ռեստորանով։",
+      "ru": "5★ wellness/medical SPA-курорт с оздоровительными программами, SPA и рестораном.",
+      "en": "5★ wellness & medical spa resort with spa facilities and health programs."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Մյասնիկյան փ., 2",
+      "ru": "Джермук, ул. Мясникяна 2",
+      "en": "Jermuk, Myasnikyan St 2"
+    },
+    "phone": "+374 60 751115",
+    "whatsapp": "37455151115",
+    "amenities": [
+      "Wi-Fi",
+      "Spa",
+      "Pool",
+      "Medical",
+      "Restaurant",
+      "Gym",
+      "Parking"
+    ],
+    "tags": [
+      "top",
+      "premium",
+      "spa"
+    ],
+    "gallery": [
+      "https://hospitalitydesign.com/wp-content/uploads/2025/07/Moselle-Armenia2.jpg",
+      "https://hospitalitydesign.com/wp-content/uploads/2025/07/Moselle-Armenia8.jpg",
+      "https://hospitalitydesign.com/wp-content/uploads/2025/07/Moselle-Armenia11.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8a/28/a3/facade.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/8a/28/c8/facade.jpg"
+    ],
+    "geo": {
+      "lat": 39.84,
+      "lng": 45.671
+    },
+    "website": "https://www.mosellearmenia.com/en",
+    "booking_link": "https://www.booking.com/hotel/am/armenia-health-spa.html",
+    "rating": 4.7,
+    "price_level": 4
+  }
+]
