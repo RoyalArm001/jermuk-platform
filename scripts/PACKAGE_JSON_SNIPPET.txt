@@ -1,7 +1,0 @@
-Add this to package.json scripts:
-
-"build:hotels": "node scripts/build-hotels.mjs",
-"build:data": "npm run build:hotels"
-
-Then run:
-npm run build:hotels
