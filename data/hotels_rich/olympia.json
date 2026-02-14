@@ -1,0 +1,79 @@
+[
+  {
+    "id": "olympia",
+    "type": "hotel",
+    "title": "Olympia Resort",
+    "subtitle": "Sanatorium • Medical Center • Classic Style",
+    "description": "«Օլիմպիա» առողջարանը Ջերմուկի ամենահեղինակավոր բուժական հաստատություններից է։ Այն պահպանել է դասական ոճի շքեղությունը՝ համադրելով այն ժամանակակից բժշկության հետ (Կաբինետներ, Լոգանքներ, Ֆիզիոթերապիա)։",
+    "address": "Շահումյան փողոց 16, Ջերմուկ, Հայաստան",
+    "geo": {
+      "lat": 39.8412,
+      "lng": 45.6731
+    },
+    "rating": 4.6,
+    "reviews": 320,
+    "currency": "AMD",
+    "priceFrom": 28000,
+    "tags": [
+      "sanatorium",
+      "medical",
+      "classic",
+      "restaurant",
+      "family",
+      "cinema",
+      "parking"
+    ],
+    "amenities": [
+      "Հզոր բժշկական կենտրոն (Բալնեոլոգիա)",
+      "Հանքային ջրով լոգանքներ (Ջակուզի)",
+      "Դասական ոճի ճաշարան (3-անգամյա սնունդ)",
+      "Գեղեցկության սրահ և վարսավիրանոց",
+      "Կինոդահլիճ և Գրադարան",
+      "Խաղասենյակ (Բիլիարդ, Թենիս)",
+      "Բար և սրճարան",
+      "Մերսման սրահ",
+      "Անվճար Wi-Fi",
+      "Անվճար ավտոկայանատեղի"
+    ],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sanatorium_in_Jermuk.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Jermuk_water_gallery.jpg",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540544660406-6a69dacb2804?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "jermuktravel",
+        "label": "Ամրագրել մեր կայքից (Զեղչով)",
+        "priority": 1,
+        "channels": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/+ITqRV82Y5OdkY2Ey"
+          },
+          {
+            "type": "whatsapp",
+            "url": "https://wa.me/37494222612"
+          }
+        ]
+      },
+      {
+        "provider": "official",
+        "label": "Ամրագրել հյուրանոցի կայքից",
+        "priority": 2,
+        "url": "http://jermukolympia.am/"
+      },
+      {
+        "provider": "booking",
+        "label": "Booking.com",
+        "priority": 3,
+        "url": "https://www.booking.com/hotel/am/olympia-sanatorium.html"
+      }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  }
+]

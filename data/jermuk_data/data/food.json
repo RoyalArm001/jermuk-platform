@@ -1,0 +1,85 @@
+﻿[
+  {
+    "id": "baghaberd",
+    "type": "food",
+    "title": "Baghaberd Restaurant",
+    "subtitle": "Ավանդական • Գետափին",
+    "description": "Բաղաբերդ-ը Ջերմուկի ամենասիրված ռեստորանն է՝ Արփա գետի ափին։",
+    "address": "Արփա գետի ափ, Ջերմուկ",
+    "geo": { "lat": 39.8430, "lng": 45.6670 },
+    "priceLevel": 2,
+    "cuisine": ["Armenian", "BBQ", "Fish"],
+    "hours": "10:00 - 24:00",
+    "phone": "+374 93 456545",
+    "tags": ["river-view", "bbq", "fish", "outdoor"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/2/29/Khorovats.jpg"],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Պատվիրել սեղան", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "direct", "label": "Զանգահարել", "priority": 2, "phone": "+37493456545" }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "forte-jermuk",
+    "type": "food",
+    "title": "Forte Cafe & Pizza",
+    "subtitle": "Cafe • Pizza • Cocktails",
+    "description": "Ժամանակակից սրճարան քաղաքի սրտում՝ իտալական պիցցայով։",
+    "address": "Շահումյան փողոց 4, Ջերմուկ",
+    "geo": { "lat": 39.8405, "lng": 45.6710 },
+    "priceLevel": 2,
+    "cuisine": ["Pizza", "European"],
+    "hours": "09:00 - 23:30",
+    "tags": ["cafe", "pizza", "cocktails", "youth"],
+    "gallery": ["https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"],
+    "bookingOptions": [
+       { "provider": "jermuktravel", "label": "Պատվիրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "terrace-restaurant",
+    "type": "food",
+    "title": "Terrace Jermuk",
+    "subtitle": "Panorama • Wine",
+    "description": "Ռոմանտիկ ընթրիք գեղեցիկ տեսարանով։",
+    "address": "Մյասնիկյան փողոց 27",
+    "geo": { "lat": 39.8415, "lng": 45.6700 },
+    "priceLevel": 3,
+    "cuisine": ["International", "Wine"],
+    "tags": ["view", "romantic", "wine"],
+    "gallery": ["https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  },
+  {
+    "id": "karap-cafe",
+    "type": "food",
+    "title": "Karap Cafe",
+    "subtitle": "Lake View • Ice Cream",
+    "description": "Լճափնյա սրճարան, հայտնի է պաղպաղակով։",
+    "address": "Լճի ափ, Ջերմուկ",
+    "geo": { "lat": 39.8402, "lng": 45.6705 },
+    "priceLevel": 1,
+    "cuisine": ["Coffee", "Ice Cream"],
+    "tags": ["lake-view", "casual", "kids-friendly"],
+    "gallery": ["https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Կապ", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  },
+  {
+    "id": "moxravan",
+    "type": "food",
+    "title": "Moxravan Tavern",
+    "subtitle": "Tavern • Roadside",
+    "description": "Պանդոկ Գնդեվազի մոտ՝ թոնրի խորովածով։",
+    "address": "Գնդեվազի խաչմերուկ",
+    "geo": { "lat": 39.7800, "lng": 45.6200 },
+    "priceLevel": 2,
+    "cuisine": ["Armenian", "Tonir"],
+    "tags": ["tavern", "roadside", "authentic"],
+    "gallery": ["https://images.unsplash.com/photo-1594968155912-348df8c42b10?auto=format&fit=crop&w=800&q=80"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Պատվիրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  }
+]

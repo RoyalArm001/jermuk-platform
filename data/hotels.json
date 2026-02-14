@@ -1,0 +1,26 @@
+[
+  {
+    "id": "jermuk-olympia",
+    "name": "Olympia Hotel",
+    "type": "hotel",
+    "rating": 4.6,
+    "priceFrom": 22000,
+    "currency": "AMD",
+    "address": "Jermuk, Armenia",
+    "phone": "+37400000000",
+    "tags": ["Wi‑Fi", "Breakfast", "Spa"],
+    "desc": "Comfortable rooms, central location and wellness services."
+  },
+  {
+    "id": "jermuk-armenian",
+    "name": "Armenia Health Resort",
+    "type": "resort",
+    "rating": 4.7,
+    "priceFrom": 35000,
+    "currency": "AMD",
+    "address": "Jermuk, Armenia",
+    "phone": "+37400000000",
+    "tags": ["Treatment", "Pool", "Spa"],
+    "desc": "Health resort with medical programs and spa facilities."
+  }
+]

@@ -1,0 +1,27 @@
+﻿[
+  {
+    "id": "acba-atm-jermuk",
+    "type": "service",
+    "title": "ACBA Bank",
+    "subtitle": "Բանկ • ATM",
+    "description": "Բանկոմատ և մասնաճյուղ:",
+    "address": "Շահումյան փողոց",
+    "category": "finance",
+    "tags": ["atm", "bank"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/e/e9/Acba_bank_head_office.jpg"],
+    "bookingOptions": [{ "provider": "direct", "label": "Website", "priority": 1, "url": "https://www.acba.am/" }],
+    "status": "active"
+  },
+  {
+    "id": "pharmacy-central",
+    "type": "service",
+    "title": "Կենտրոնական Դեղատուն",
+    "subtitle": "Դեղորայք",
+    "description": "Շուրջօրյա դեղատուն:",
+    "category": "health",
+    "tags": ["pharmacy", "health"],
+    "gallery": ["https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=800&q=80"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Կապ", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  }
+]

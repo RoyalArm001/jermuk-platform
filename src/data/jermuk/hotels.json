@@ -1,0 +1,34 @@
+{
+  "city": "Jermuk",
+  "updated": "2026-01-25",
+  "items": [
+    {
+      "id": "olympia",
+      "name": "Olympia Resort",
+      "stars": 4,
+      "rating": 4.5,
+      "priceFrom": 25000,
+      "images": [
+        "https://images.unsplash.com/search/photos?query=Jermuk+hotel"
+      ],
+      "contact": {
+        "booking": "https://booking.com",
+        "whatsapp": "https://wa.me/37491733633"
+      }
+    },
+    {
+      "id": "grand",
+      "name": "Jermuk Grand Resort",
+      "stars": 4,
+      "rating": 4.6,
+      "priceFrom": 30000,
+      "images": [
+        "https://images.unsplash.com/search/photos?query=spa+hotel+armenia"
+      ],
+      "contact": {
+        "booking": "https://booking.com",
+        "whatsapp": "https://wa.me/37491733633"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+﻿[
+  {
+    "id": "geyser-jeeping",
+    "type": "tour",
+    "title": "Ջիպինգ դեպի Տաք Ջրեր",
+    "subtitle": "Off-road • Գեյզեր",
+    "description": "Արկածային ուղևորություն ամենագնացներով դեպի բնական տաք աղբյուրներ:",
+    "priceFrom": 15000,
+    "durationHours": 3,
+    "groupSize": "1-6",
+    "tags": ["jeeping", "extreme", "geyser"],
+    "gallery": ["https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  },
+  {
+    "id": "safari-smbataberd",
+    "type": "tour",
+    "title": "Սաֆարի դեպի Սմբատաբերդ",
+    "subtitle": "Պատմություն • Ամրոց",
+    "description": "Ջիպինգ դեպի հինավուրց Սմբատաբերդ ամրոց:",
+    "priceFrom": 20000,
+    "durationHours": 5,
+    "tags": ["history", "fortress", "jeeping"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/e/e9/Smbataberd_Fortress_01.jpg"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  },
+  {
+    "id": "kechut-hike",
+    "type": "tour",
+    "title": "Քայլարշավ Կեչուտի մոտ",
+    "subtitle": "Բնություն • Պիկնիկ",
+    "description": "Հանգիստ զբոսանք Կեչուտի ջրամբարի ափով:",
+    "priceFrom": 5000,
+    "durationHours": 2,
+    "tags": ["hiking", "family", "nature"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/e/e0/Kechut_Reservoir.jpg"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  }
+]

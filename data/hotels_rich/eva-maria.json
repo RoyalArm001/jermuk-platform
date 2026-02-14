@@ -1,0 +1,68 @@
+[
+  {
+    "id": "eva-maria",
+    "type": "hotel",
+    "title": "Eva Maria Hotel",
+    "subtitle": "Boutique Hotel • Family • Central",
+    "description": "Եվա Մարիա հյուրանոցը փոքր, բայց շատ հարմարավետ և հյուրընկալ վայր է Ջերմուկի կենտրոնում։ Այստեղ դուք կզգաք ձեզ ինչպես տանը՝ վայելելով անձնակազմի ջերմ վերաբերմունքը։",
+    "address": "Մյասնիկյան փողոց 11, Ջերմուկ, Հայաստան",
+    "geo": {
+      "lat": 39.841,
+      "lng": 45.6705
+    },
+    "rating": 4.8,
+    "reviews": 110,
+    "currency": "AMD",
+    "priceFrom": 18000,
+    "tags": [
+      "boutique",
+      "family",
+      "central",
+      "cozy",
+      "breakfast",
+      "wifi"
+    ],
+    "amenities": [
+      "Նախաճաշ (տնական/թարմ)",
+      "Ընտանեկան համարներ",
+      "Կենտրոնական դիրք",
+      "Անվճար Wi-Fi",
+      "Այգի/Բակ",
+      "Լվացքատան ծառայություն"
+    ],
+    "gallery": [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1cd5874c1516?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540544660406-6a69dacb2804?auto=format&fit=crop&w=1200&q=80",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Jermuk_Tsolk_Waterfall.jpg",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1501117716987-c8e1ecb210c7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551632436-cbf8dd354ca8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "jermuktravel",
+        "label": "Ամրագրել մեր կայքից",
+        "priority": 1,
+        "channels": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/+ITqRV82Y5OdkY2Ey"
+          },
+          {
+            "type": "whatsapp",
+            "url": "https://wa.me/37494222612"
+          }
+        ]
+      },
+      {
+        "provider": "booking",
+        "label": "Booking.com",
+        "priority": 2,
+        "url": "https://www.booking.com/hotel/am/eva-maria.html"
+      }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  }
+]

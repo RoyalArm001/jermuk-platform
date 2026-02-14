@@ -1,0 +1,76 @@
+[
+  {
+    "id": "jermuk-ashkharh",
+    "type": "hotel",
+    "title": "Jermuk Ashkharh Sanatorium",
+    "subtitle": "Sanatorium • Nature • Affordable",
+    "description": "«Ջերմուկ Աշխարհ»-ը հայտնի է իր մատչելի գներով և հրաշալի դիրքով՝ անտառի գրկում։ Այն իդեալական է նրանց համար, ովքեր փնտրում են էֆեկտիվ բուժում և լիակատար անդորր։",
+    "address": "Իսրայելյան փողոց 4, Ջերմուկ, Հայաստան",
+    "geo": {
+      "lat": 39.845,
+      "lng": 45.665
+    },
+    "rating": 4.1,
+    "reviews": 120,
+    "currency": "AMD",
+    "priceFrom": 20000,
+    "tags": [
+      "sanatorium",
+      "budget",
+      "nature",
+      "pool",
+      "football",
+      "quiet"
+    ],
+    "amenities": [
+      "Բուժական մասնաշենք (ցեխաբուժություն, լոգանք)",
+      "Ներսային լողավազան",
+      "Ֆուտբոլի և վոլեյբոլի դաշտեր",
+      "Կինոդահլիճ և պարահրապարակ",
+      "Բիլիարդ",
+      "3-անգամյա սնունդ (ներառված է գնի մեջ)",
+      "Անվճար Wi-Fi (ընդհանուր տարածքներում)",
+      "Տրանսֆեր դեպի կենտրոն"
+    ],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Jermuk_Ashkharh_Sanatorium.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Jermuk_Tsolk_Waterfall.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Jermuk_water_gallery.jpg",
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560624052-449f5ddf0c31?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1470165510429-bb1a1b2f5c7b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "jermuktravel",
+        "label": "Ամրագրել մեր կայքից (Զեղչով)",
+        "priority": 1,
+        "channels": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/+ITqRV82Y5OdkY2Ey"
+          },
+          {
+            "type": "whatsapp",
+            "url": "https://wa.me/37494222612"
+          }
+        ]
+      },
+      {
+        "provider": "official",
+        "label": "Ամրագրել հյուրանոցի կայքից",
+        "priority": 2,
+        "url": "http://jermukashkharh.am/"
+      },
+      {
+        "provider": "booking",
+        "label": "Booking.com",
+        "priority": 3,
+        "url": "https://www.booking.com/hotel/am/jermuk-ashkharh-sanatorium.html"
+      }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  }
+]

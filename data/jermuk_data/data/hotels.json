@@ -1,0 +1,220 @@
+﻿[
+  {
+    "id": "grand-resort",
+    "type": "hotel",
+    "title": "Grand Resort Jermuk",
+    "subtitle": "Sanatorium • SPA • Medical Wellness",
+    "description": "Grand Resort Jermuk-ը բարձրակարգ առողջարանային համալիր է, որը համատեղում է հանգիստը, բուժումը և ժամանակակից սպասարկումը։",
+    "address": "Շահումյան փողոց 14, Ջերմուկ",
+    "geo": { "lat": 39.8416, "lng": 45.6694 },
+    "rating": 4.9,
+    "reviews": 450,
+    "currency": "AMD",
+    "priceFrom": 38000,
+    "tags": ["luxury", "spa", "medical", "pool", "sauna", "fitness"],
+    "amenities": ["Indoor Pool", "Medical SPA", "Sauna", "Fitness Center", "Restaurant", "Wi-Fi", "Parking"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Jermuk%2C_Grand_Resort_Jermuk_%281%29.jpg",
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել մեր կայքից", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "official", "label": "Official Site", "priority": 2, "url": "https://grandresortjermuk.com/" },
+      { "provider": "booking", "label": "Booking.com", "priority": 3, "url": "https://www.booking.com/hotel/am/hyatt-place-jermuk.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "olympia",
+    "type": "hotel",
+    "title": "Olympia Resort",
+    "subtitle": "Sanatorium • Medical Center",
+    "description": "Օլիմպիա առողջարանը Ջերմուկի ամենահեղինակավոր բուժական հաստատություններից է՝ դասական ոճով։",
+    "address": "Շահումյան փողոց 16, Ջերմուկ",
+    "geo": { "lat": 39.8412, "lng": 45.6731 },
+    "rating": 4.6,
+    "priceFrom": 28000,
+    "currency": "AMD",
+    "tags": ["medical", "classic", "family", "restaurant"],
+    "amenities": ["Medical Center", "Mineral Baths", "Cinema", "Library", "Billiards", "Wi-Fi"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sanatorium_in_Jermuk.jpg",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել մեր կայքից", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 3, "url": "https://www.booking.com/hotel/am/olympia-sanatorium.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "jermuk-hotel-spa",
+    "type": "hotel",
+    "title": "Jermuk Hotel & SPA",
+    "subtitle": "Modern Hotel • Family Friendly",
+    "description": "Ժամանակակից հյուրանոցային համալիր՝ մեծ լողավազանով և ընտանեկան հարմարություններով։",
+    "address": "Մյասնիկյան փողոց 27, Ջերմուկ",
+    "geo": { "lat": 39.8405, "lng": 45.6682 },
+    "rating": 4.7,
+    "priceFrom": 32000,
+    "currency": "AMD",
+    "tags": ["modern", "spa", "pool", "kids-club", "views"],
+    "amenities": ["Indoor Pool", "Kids Playroom", "Bar", "Conference Hall", "Wi-Fi", "EV Charging"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Jermuk_Hotel_and_Spa.jpg",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել մեր կայքից", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 3, "url": "https://www.booking.com/hotel/am/jermuk-hotel-amp-spa.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "armenia-wellness",
+    "type": "hotel",
+    "title": "Armenia Wellness & SPA",
+    "subtitle": "Historic • Luxury • Gym",
+    "description": "Դասական ճարտարապետությամբ շքեղ առողջարան՝ Ըմպելասրահի հարևանությամբ։",
+    "address": "Մյասնիկյան փողոց 2, Ջերմուկ",
+    "geo": { "lat": 39.8398, "lng": 45.6715 },
+    "rating": 4.8,
+    "priceFrom": 35000,
+    "currency": "AMD",
+    "tags": ["luxury", "history", "gym", "pool"],
+    "amenities": ["Gym", "Pool", "Medical Center", "Restaurant", "Wi-Fi"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/23/Jermuk_Armenia_Health_Spa.jpg",
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել մեր կայքից", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 3, "url": "https://www.booking.com/hotel/am/armenia-wellness-amp-spa.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "verona-resort",
+    "type": "hotel",
+    "title": "Verona Resort",
+    "subtitle": "Lake View • Boutique",
+    "description": "Գտնվում է լճի ափին։ Առաջարկում է գեղեցիկ տեսարան և հանգիստ մթնոլորտ։",
+    "address": "Մյասնիկյան փողոց 1, Ջերմուկ",
+    "geo": { "lat": 39.8402, "lng": 45.6708 },
+    "rating": 4.5,
+    "priceFrom": 25000,
+    "currency": "AMD",
+    "tags": ["lake-view", "boutique", "romantic"],
+    "amenities": ["Lake View Rooms", "Restaurant", "Boat Rental", "Wi-Fi"],
+    "gallery": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 2, "url": "https://www.booking.com/hotel/am/verona-resort.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "jermuk-ashkharh",
+    "type": "hotel",
+    "title": "Jermuk Ashkharh",
+    "subtitle": "Sanatorium • Nature",
+    "description": "Մատչելի առողջարան անտառային գոտում։",
+    "address": "Իսրայելյան փողոց 4, Ջերմուկ",
+    "geo": { "lat": 39.8450, "lng": 45.6650 },
+    "rating": 4.1,
+    "priceFrom": 20000,
+    "currency": "AMD",
+    "tags": ["nature", "budget", "football"],
+    "amenities": ["Pool", "Football Field", "3-meals included", "Cinema"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Jermuk_Ashkharh_Sanatorium.jpg",
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 3, "url": "https://www.booking.com/hotel/am/jermuk-ashkharh-sanatorium.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "jermuk-moscow",
+    "type": "hotel",
+    "title": "Jermuk Moscow",
+    "subtitle": "Sanatorium • Classic",
+    "description": "Դասական ոճի հայտնի առողջարան։",
+    "address": "Շահումյան փողոց 12, Ջերմուկ",
+    "geo": { "lat": 39.8425, "lng": 45.6710 },
+    "rating": 4.4,
+    "priceFrom": 24000,
+    "currency": "AMD",
+    "tags": ["sanatorium", "medical", "classic"],
+    "amenities": ["Medical Center", "Mineral Baths", "3-meals included", "Library"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Jermuk_Moscow_Sanatorium.jpg",
+      "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 3, "url": "https://www.booking.com/hotel/am/jermuk-moscow-health-resort.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "nairi-jermuk",
+    "type": "hotel",
+    "title": "Nairi Hotel",
+    "subtitle": "Budget • Views",
+    "description": "Մատչելի հյուրանոց հիանալի տեսարանով դեպի ձորը։",
+    "address": "Ձախափնյակ թաղամաս, Ջերմուկ",
+    "geo": { "lat": 39.8380, "lng": 45.6600 },
+    "rating": 4.0,
+    "priceFrom": 15000,
+    "currency": "AMD",
+    "tags": ["budget", "view", "quiet"],
+    "amenities": ["Restaurant", "Parking", "Wi-Fi"],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Jermuk_Armenia_5.jpg/1024px-Jermuk_Armenia_5.jpg",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 2, "url": "https://www.booking.com/hotel/am/nairi.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  },
+  {
+    "id": "eva-maria",
+    "type": "hotel",
+    "title": "Eva Maria Hotel",
+    "subtitle": "Boutique • Family",
+    "description": "Փոքրիկ և հարմարավետ հյուրանոց կենտրոնում։",
+    "address": "Մյասնիկյան փողոց 11, Ջերմուկ",
+    "geo": { "lat": 39.8410, "lng": 45.6705 },
+    "rating": 4.8,
+    "priceFrom": 18000,
+    "currency": "AMD",
+    "tags": ["boutique", "family", "central"],
+    "amenities": ["Breakfast", "Family Rooms", "Garden", "Wi-Fi"],
+    "gallery": [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1cd5874c1516?auto=format&fit=crop&w=800&q=80"
+    ],
+    "bookingOptions": [
+      { "provider": "jermuktravel", "label": "Ամրագրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] },
+      { "provider": "booking", "label": "Booking.com", "priority": 2, "url": "https://www.booking.com/hotel/am/eva-maria.html" }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  }
+]

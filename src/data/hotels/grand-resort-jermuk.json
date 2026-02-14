@@ -1,0 +1,49 @@
+{
+  "id": "grand-resort-jermuk",
+  "type": "hotels",
+  "title": {
+    "hy": "Grand Resort Jermuk (Hyatt Place Jermuk)",
+    "en": "Grand Resort Jermuk (Hyatt Place Jermuk)",
+    "ru": "Grand Resort Jermuk (Hyatt Place Jermuk)"
+  },
+  "desc": {
+    "hy": "Բարձրակարգ առողջարանային հյուրանոց՝ spa/բուժում/լողավազան։",
+    "en": "",
+    "ru": ""
+  },
+  "address": {
+    "hy": "Ջերմուկ, Շահումյան փ. 7/5",
+    "en": "Jermuk, Shahumyan St. 7/5",
+    "ru": "Джермук, ул. Шаумяна 7/5"
+  },
+  "phones": [
+    "+37460740000"
+  ],
+  "phone": "+37460740000",
+  "whatsapp": "",
+  "website": "https://grandresortjermuk.com/",
+  "booking_link": "https://www.booking.com/hotel/am/hyatt-place-jermuk.html",
+  "amenities": [],
+  "tags": [
+    "stay"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1551887373-6bc8d96f2e20?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "gallery_note_hy": "Նկարները demo/stock են (ոչ պարտադիր տվյալ օբյեկտին պատկանող)։ Հետո կփոխենք իրական նկարներով։",
+  "geo": {
+    "lat": null,
+    "lng": null
+  },
+  "rating": null,
+  "price_level": null,
+  "status": "active",
+  "updated": "2026-01-25",
+  "sources": {
+    "spyur": "https://www.spyur.am/en/companies/grand-resort-jermuk/34908/",
+    "official": "https://grandresortjermuk.com/",
+    "booking": "https://www.booking.com/hotel/am/hyatt-place-jermuk.html"
+  }
+}

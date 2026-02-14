@@ -1,0 +1,34 @@
+/* Hotel page local styles (keeps core untouched) */
+.jt-page{max-width:980px;margin:0 auto;padding:16px}
+.jt-hero{padding:14px;border-radius:18px;background:rgba(255,255,255,.04);backdrop-filter:blur(10px)}
+.jt-hero__top{display:flex;gap:12px;align-items:flex-start}
+.jt-back{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:12px;
+  background:rgba(255,255,255,.06);text-decoration:none;font-size:22px}
+.jt-title h1{margin:0;font-size:22px;line-height:1.2}
+.jt-sub{margin:6px 0 0;opacity:.85;font-size:13px}
+
+.jt-gallery{position:relative;margin-top:14px;border-radius:18px;overflow:hidden;aspect-ratio:16/9;background:rgba(0,0,0,.25)}
+.jt-gimg{width:100%;height:100%;object-fit:cover;display:block}
+.jt-gbtn{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:14px;border:0;
+  background:rgba(0,0,0,.45);color:#fff;font-size:26px;cursor:pointer}
+.jt-gprev{left:10px}
+.jt-gnext{right:10px}
+.jt-gdots{position:absolute;left:0;right:0;bottom:10px;display:flex;gap:6px;justify-content:center}
+.jt-gdots span{width:7px;height:7px;border-radius:999px;background:rgba(255,255,255,.35)}
+.jt-gdots span.is-active{background:rgba(255,255,255,.9)}
+
+.jt-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.jt-btn{display:inline-flex;align-items:center;justify-content:center;padding:10px 14px;border-radius:14px;
+  text-decoration:none;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10)}
+.jt-primary{background:rgba(0,0,0,.25)}
+.jt-wide{width:100%}
+
+.jt-card{margin-top:14px;padding:14px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+.jt-card h2{margin:0 0 10px;font-size:16px}
+.jt-list{margin:0;padding-left:16px}
+.jt-tags{display:flex;flex-wrap:wrap;gap:8px}
+.jt-tag{padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);font-size:12px}
+.jt-muted{opacity:.8}
+.jt-small{font-size:12px}
+.jt-note{margin:0 0 10px;opacity:.9}
+.jt-footer{opacity:.75;margin:18px 0 0;text-align:center}

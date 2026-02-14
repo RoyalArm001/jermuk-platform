@@ -1,71 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hy">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jermuk Travel — Updating</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- === SEO PATCH (jermuktravel.com) START === -->
+    <title>Ջերմուկի հյուրանոցներ, ռեստորաններ և տեսարժան վայրեր | Jermuk Travel</title>
+    <meta name="description" content="JermukTravel.com — Ջերմուկի հյուրանոցները, վարձու տները, ռեստորանները, տեսարժան վայրերը և ծառայությունները մեկ հարթակում։" />
+    <meta name="keywords" content="Ջերմուկ հյուրանոցներ, Jermuk hotels, Jermuk spa, Ջերմուկ տեսարժան վայրեր, Jermuk attractions, Jermuk travel, JermukTravel" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://jermuktravel.com/" />
 
-  <link rel="manifest" href="manifest.webmanifest">
-  <meta name="theme-color" content="#080E18">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <video autoplay muted loop playsinline class="bg">
-    <source src="/path/background.mp4" type="video/mp4"/>
-  </video>
+    <!-- Open Graph (Facebook / Telegram / WhatsApp) -->
+    <meta property="og:title" content="Jermuk Travel — Official Guide" />
+    <meta property="og:description" content="Hotels, attractions, restaurants and services in Jermuk" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jermuktravel.com/" />
+    <meta property="og:image" content="https://jermuktravel.com/assets/og-cover.jpg" />
 
-  <!-- PWA-only gate -->
-  <div id="installGate" class="gate hidden" role="dialog" aria-modal="true">
-    <div class="gateCard">
-      <img class="gateLogo" src="logo.png" alt="Jermuk Travel"/>
-      <h2>Install Jermuk Travel</h2>
-      <p class="gateText">
-        Այս էջը հասանելի է միայն հավելվածի (PWA) տարբերակով։
-        <br/>Տեղադրիր՝ որպեսզի հետհաշվարկը բոլորի մոտ նույնը լինի և ավտոմատ թարմացվի։
-      </p>
-
-      <div class="gateBtns">
-        <button id="installBtn" class="btn primary" type="button" disabled>Install</button>
-        <button id="iosHelpBtn" class="btn" type="button">iPhone</button>
-      </div>
-
-      <div id="iosHelp" class="iosHelp hidden">
-        <p><b>iPhone (Safari)</b></p>
-        <ol>
-          <li>Բացիր Safari-ում</li>
-          <li>Սեղմիր <b>Share</b> (քառակուսի ↑)</li>
-          <li>Ընտրիր <b>Add to Home Screen</b></li>
-          <li>Բացի՛ր հավելվածը Home Screen-ից</li>
-        </ol>
-      </div>
-
-      <p class="gateNote">* iPhone-ում “Install” prompt չկա, պետք է Add to Home Screen։</p>
-    </div>
-  </div>
-
-  <!-- App UI -->
-  <div class="overlay" id="appUI">
-    <div class="brand">
-      <img class="logo" src="logo.png" alt="Jermuk Travel"/>
-      <div class="brandText">
-        <h1>Jermuk Travel</h1>
-        <p class="tagline" id="tagline">Updating…</p>
-      </div>
-    </div>
-
-    <p class="subtitle" id="lang-text"></p>
-
-    <div class="countdown" aria-label="countdown">
-      <div><span id="h">00</span><small>Hours</small></div>
-      <div><span id="m">00</span><small>Minutes</small></div>
-      <div><span id="s">00</span><small>Seconds</small></div>
-    </div>
-
-    <p class="footer" id="footerText"></p>
-  </div>
-
-  <script src="pwa.js"></script>
-  <script src="script.js"></script>
-</body>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jermuk Travel" />
+    <meta name="twitter:description" content="Official travel guide for Jermuk" />
+    <meta name="twitter:image" content="https://jermuktravel.com/assets/og-cover.jpg" />
+    <!-- === SEO PATCH END === -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Match page background to avoid a colored strip in the browser / PWA status bar -->
+    <meta name="theme-color" content="#f7fafc" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  </head>
+  <body class="bg-[var(--bg)] text-[var(--fg)]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TouristInformationCenter",
+        "name": "Jermuk Travel",
+        "url": "https://jermuktravel.com/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Jermuk",
+          "addressCountry": "AM"
+        },
+        "telephone": "+37491733633"
+      }
+    </script>
+  </body>
 </html>

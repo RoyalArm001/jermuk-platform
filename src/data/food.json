@@ -1,0 +1,85 @@
+[
+  {
+    "id": "forte",
+    "type": "food",
+    "title": {
+      "hy": "Forte Cafe",
+      "ru": "Forte Cafe",
+      "en": "Forte Cafe"
+    },
+    "desc": {
+      "hy": "Սրճարան/ռեստորան Ջերմուկում։",
+      "ru": "Кафе/ресторан в Джермуке.",
+      "en": "Cafe/restaurant in Jermuk."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Հայաստան",
+      "ru": "Джермук, Армения",
+      "en": "Jermuk, Armenia"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [
+      "Cafe",
+      "Desserts",
+      "Wi‑Fi"
+    ],
+    "tags": [
+      "Cafe",
+      "Coffee"
+    ],
+    "gallery": [
+      "/placeholders/hotels/hotel-20.svg"
+    ],
+    "geo": {
+      "lat": 39.841,
+      "lng": 45.673
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": 4.6,
+    "price_level": "$$",
+    "content_path": "/content/food/forte/page.html"
+  },
+  {
+    "id": "qarandzav",
+    "type": "food",
+    "title": {
+      "hy": "Քարանձավ",
+      "ru": "Карандзав",
+      "en": "Qarandzav"
+    },
+    "desc": {
+      "hy": "Ռեստորան Ջերմուկում։",
+      "ru": "Ресторан в Джермуке.",
+      "en": "Restaurant in Jermuk."
+    },
+    "address": {
+      "hy": "Ջերմուկ, Հայաստան",
+      "ru": "Джермук, Армения",
+      "en": "Jermuk, Armenia"
+    },
+    "phone": "",
+    "whatsapp": "",
+    "amenities": [
+      "Restaurant",
+      "Local cuisine"
+    ],
+    "tags": [
+      "Restaurant",
+      "Armenian"
+    ],
+    "gallery": [
+      "/placeholders/hotels/hotel-21.svg"
+    ],
+    "geo": {
+      "lat": 39.842,
+      "lng": 45.674
+    },
+    "website": "",
+    "booking_link": "",
+    "rating": 4.5,
+    "price_level": "$$",
+    "content_path": "/content/food/qarandzav/page.html"
+  }
+]

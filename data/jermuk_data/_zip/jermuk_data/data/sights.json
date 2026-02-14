@@ -1,0 +1,80 @@
+﻿[
+  {
+    "id": "jermuk-waterfall",
+    "type": "sight",
+    "title": "Ջերմուկի Ջրվեժ",
+    "subtitle": "72 մետր • Ջրահարսի վարսեր",
+    "description": "Ջերմուկի այցեքարտը համարվող այս հրաշքը ժողովուրդը անվանում է «Ջրահարսի վարսեր»: 72 մետր բարձրություն:",
+    "geo": { "lat": 39.8365, "lng": 45.6685 },
+    "category": "nature",
+    "bestSeason": "All Year",
+    "tags": ["nature", "waterfall", "must-see"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jermuk_waterfall.jpg/800px-Jermuk_waterfall.jpg"],
+    "status": "active"
+  },
+  {
+    "id": "mineral-gallery",
+    "type": "sight",
+    "title": "Ըմպելասրահ (Գալերեա)",
+    "subtitle": "Հանքային ջրեր",
+    "description": "Ջերմուկի խորհրդանիշը: Այստեղից հոսում են բուժիչ ջրերը:",
+    "geo": { "lat": 39.8400, "lng": 45.6700 },
+    "category": "culture",
+    "bestSeason": "All Year",
+    "tags": ["mineral-water", "history", "architecture"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/2/2c/Jermuk_water_gallery.jpg"],
+    "status": "active"
+  },
+  {
+    "id": "jermuk-ropeway",
+    "type": "sight",
+    "title": "Ճոպանուղի",
+    "subtitle": "Լեռնադահուկային կենտրոն",
+    "description": "Ճոպանուղին ձեզ կհասցնի 2480 մետր բարձրության վրա: Գեղեցիկ պանորամա:",
+    "geo": { "lat": 39.8350, "lng": 45.6800 },
+    "priceFrom": 1000,
+    "category": "viewpoint",
+    "tags": ["ropeway", "ski", "panorama"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/2/29/Ropeway_in_Jermuk.jpg"],
+    "bookingOptions": [
+        { "provider": "jermuktravel", "label": "Տոմսեր", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }
+    ],
+    "status": "active"
+  },
+  {
+    "id": "deer-statue",
+    "type": "sight",
+    "title": "Եղնիկի արձան",
+    "subtitle": "Ջերմուկի խորհրդանիշ",
+    "description": "Եղնիկի արձանը գտնվում է բարձր ժայռի գագաթին՝ հիանալի տեսարանով դեպի կիրճը:",
+    "geo": { "lat": 39.8320, "lng": 45.6620 },
+    "category": "viewpoint",
+    "tags": ["symbol", "viewpoint", "photo-spot"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/0/07/The_Deer_statue_in_Jermuk.jpg"],
+    "status": "active"
+  },
+  {
+    "id": "gndevank-monastery",
+    "type": "sight",
+    "title": "Գնդեվանք",
+    "subtitle": "10-րդ դարի վանք",
+    "description": "Հինավուրց վանք Արփա գետի կիրճում:",
+    "geo": { "lat": 39.7592, "lng": 45.6108 },
+    "category": "culture",
+    "tags": ["church", "history", "hiking"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/7/79/Gndevank_Monastery.jpg"],
+    "status": "active"
+  },
+  {
+    "id": "st-gayane-church",
+    "type": "sight",
+    "title": "Սուրբ Գայանե եկեղեցի",
+    "subtitle": "Գործող եկեղեցի",
+    "description": "Կառուցվել է 2005 թվականին Ջերմուկի մուտքի մոտ:",
+    "geo": { "lat": 39.8250, "lng": 45.6500 },
+    "category": "culture",
+    "tags": ["church", "spiritual"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/1/1d/Saint_Gayane_Church%2C_Jermuk.jpg"],
+    "status": "active"
+  }
+]

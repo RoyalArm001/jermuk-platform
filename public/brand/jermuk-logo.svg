@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <clipPath id="r">
+      <rect x="0" y="0" width="256" height="256" rx="56" ry="56"/>
+    </clipPath>
+  </defs>
+  <rect width="256" height="256" rx="56" ry="56" fill="transparent"/>
+  <g clip-path="url(#r)">
+    <image href="/brand/jermuk-logo.png" x="0" y="0" width="256" height="256" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+</svg>

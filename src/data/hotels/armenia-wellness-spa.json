@@ -1,0 +1,36 @@
+{
+  "id": "armenia-wellness-spa",
+  "type": "hotels",
+  "title": {
+    "hy": "Armenia Wellness & SPA Hotel",
+    "ru": "Armenia Wellness & SPA",
+    "en": "Armenia Wellness & SPA Hotel"
+  },
+  "desc": {
+    "hy": "Wellness հյուրանոց՝ սպա, լողավազան և հանգստի պայմաններ։",
+    "ru": "Wellness-отель со SPA и бассейном.",
+    "en": "Wellness hotel with spa and swimming pool."
+  },
+  "address": {
+    "hy": "Ջերմուկ",
+    "ru": "Джермук",
+    "en": "Jermuk"
+  },
+  "phone": "+37493155555",
+  "whatsapp": "37493155555",
+  "amenities": [
+    "wifi",
+    "spa",
+    "pool",
+    "restaurant"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1544161515-4ab6ce6db874",
+    "https://images.unsplash.com/photo-1519821172141-b5d8d0a83b0c"
+  ],
+  "booking_link": "https://jermukarmenia.com",
+  "rating": 4.4,
+  "price_level": 3,
+  "status": "active",
+  "updated": "2026-01-25"
+}

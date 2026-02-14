@@ -1,0 +1,55 @@
+{
+  "id": "jermuk-olympia-sanatorium",
+  "type": "hotels",
+  "title": {
+    "hy": "Օլիմպիա առողջարան (Ջերմուկ)",
+    "ru": "Санаторий Olympia (Джермук)",
+    "en": "Jermuk Olympia Sanatorium"
+  },
+  "desc": {
+    "hy": "Առողջարանային համալիր Ջերմուկում՝ բուժական և սպա ծառայություններով, մոտ՝ հանքային ջրի գալերեային ու քաղաքի կենտրոնական զբոսայգուն։",
+    "ru": "Санаторно-оздоровительный комплекс в Джермуке с лечебными и SPA‑услугами, рядом с галереей минеральных вод и парком.",
+    "en": "Health resort in Jermuk with medical and spa services, near the mineral water gallery and central park."
+  },
+  "address": {
+    "hy": "ՀՀ, Վայոց Ձոր, Ջերմուկ, Շահումյան փող. 16",
+    "ru": "Армения, Вайоц Дзор, Джермук, ул. Шаумяна 16",
+    "en": "Armenia, Vayots Dzor, Jermuk, Shahumyan St 16"
+  },
+  "geo": {
+    "lat": null,
+    "lng": null
+  },
+  "phone": "+37494444904",
+  "whatsapp": "37494444904",
+  "website": "https://jermukolympia.am/en/",
+  "booking_link": "https://www.booking.com/hotel/am/jermuk-olympia-sanatorium.html",
+  "amenities": [
+    "wifi",
+    "spa",
+    "medical",
+    "restaurant",
+    "parking",
+    "family"
+  ],
+  "tags": [
+    "top",
+    "sanatorium",
+    "spa",
+    "medical"
+  ],
+  "gallery": [
+    "/placeholders/hotels/hotel-1.svg",
+    "/placeholders/hotels/hotel-2.svg",
+    "/placeholders/hotels/hotel-3.svg"
+  ],
+  "status": "active",
+  "updated": "2026-01-26",
+  "data_level": {
+    "booking": "linked",
+    "photos": "placeholder (need official/booking photos)",
+    "contacts": "verified",
+    "map": "address-based"
+  },
+  "maps": "https://www.google.com/maps?q=Olympia+Sanatorium+Jermuk+Shahumyan+16"
+}

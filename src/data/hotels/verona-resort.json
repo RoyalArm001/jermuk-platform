@@ -1,0 +1,48 @@
+{
+  "id": "verona-resort",
+  "type": "hotels",
+  "title": {
+    "hy": "Jermuk Verona Resort",
+    "ru": "Jermuk Verona Resort",
+    "en": "Jermuk Verona Resort"
+  },
+  "desc": {
+    "hy": "Հյուրանոց‑ռեզորթ՝ քաղաքում, հարմար ընտանիքների համար, կապով և մատչելի սպասարկմամբ։",
+    "ru": "",
+    "en": ""
+  },
+  "address": {
+    "hy": "Ջերմուկ, Շահումյան փ. 9/1",
+    "ru": "Джермук, ул. Шаумяна 9/1",
+    "en": "Jermuk, Shahumyan St. 9/1"
+  },
+  "phone": "+37428722050",
+  "whatsapp": "37491402615",
+  "amenities": [
+    "wifi",
+    "parking",
+    "family"
+  ],
+  "tags": [
+    "stay"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1551887373-6bc8d96f2e20?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "gallery_note_hy": "Նկարները demo/stock են (ոչ պարտադիր տվյալ հյուրանոցին պատկանող)։ Հետո կփոխենք իրական նկարներով։",
+  "geo": {
+    "lat": null,
+    "lng": null
+  },
+  "website": "https://jermukverona.am/en",
+  "booking_link": "https://jermukverona.am/en",
+  "rating": null,
+  "price_level": null,
+  "status": "active",
+  "updated": "2026-01-25",
+  "sources": {
+    "official_contacts": "jermukverona.am/en/contacts"
+  }
+}

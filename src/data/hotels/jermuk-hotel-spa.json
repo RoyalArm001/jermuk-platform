@@ -1,0 +1,46 @@
+{
+  "id": "jermuk-hotel-spa",
+  "type": "hotels",
+  "title": {
+    "hy": "Jermuk Hotel & Spa",
+    "ru": "Jermuk Hotel & Spa",
+    "en": "Jermuk Hotel & Spa"
+  },
+  "desc": {
+    "hy": "Հյուրանոց և սպա՝ բժշկական կենտրոնով, լողավազանով և ֆիթնեսով։",
+    "ru": "Отель и SPA с медицинским центром и бассейном.",
+    "en": "Hotel & spa with medical center, pool and fitness."
+  },
+  "address": {
+    "hy": "Ջերմուկ, Մյասնիկյան փ., 27",
+    "ru": "Джермук, ул. Мясникяна 27",
+    "en": "Jermuk, Myasnikyan 27"
+  },
+  "phone": "+374 60 441144",
+  "whatsapp": "37455441144",
+  "amenities": [
+    "Wi-Fi",
+    "Spa",
+    "Pool",
+    "Medical",
+    "Fitness",
+    "Kids"
+  ],
+  "tags": [
+    "top",
+    "family"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1559599238-1b5c19d7b8b0?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "geo": {
+    "lat": 39.84,
+    "lng": 45.671
+  },
+  "website": "https://jermukhotel.am/",
+  "booking_link": "https://jermukhotel.am/",
+  "rating": 4.5,
+  "price_level": 3
+}

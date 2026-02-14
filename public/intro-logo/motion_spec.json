@@ -1,0 +1,159 @@
+{
+  "project": "Jermuk Travel Logo Intro",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "duration_sec": 4.8,
+    "background": "#080E18"
+  },
+  "layers": [
+    {
+      "name": "sky_sun",
+      "file": "02_sky_sun.png",
+      "order": 1,
+      "anim": [
+        {
+          "t": 0.0,
+          "opacity": 0,
+          "scale": 1.08,
+          "blur": 18
+        },
+        {
+          "t": 0.6,
+          "opacity": 1,
+          "scale": 1.0,
+          "blur": 0
+        }
+      ]
+    },
+    {
+      "name": "mountains_water",
+      "file": "03_mountains_water.png",
+      "order": 2,
+      "anim": [
+        {
+          "t": 0.0,
+          "opacity": 0,
+          "y": -18
+        },
+        {
+          "t": 0.8,
+          "opacity": 1,
+          "y": 0
+        }
+      ],
+      "loop": [
+        {
+          "property": "y",
+          "type": "sine",
+          "amplitude": 2,
+          "period_sec": 1.8,
+          "start_t": 0.8,
+          "end_t": 3.6
+        }
+      ]
+    },
+    {
+      "name": "deer",
+      "file": "04_deer.png",
+      "order": 3,
+      "anim": [
+        {
+          "t": 0.0,
+          "opacity": 0,
+          "x": 24,
+          "scale": 0.92
+        },
+        {
+          "t": 1.4,
+          "opacity": 1,
+          "x": 0,
+          "scale": 1.0
+        }
+      ],
+      "loop": [
+        {
+          "property": "scale",
+          "type": "sine",
+          "amplitude": 0.02,
+          "period_sec": 1.6,
+          "start_t": 1.6,
+          "end_t": 4.0
+        }
+      ]
+    },
+    {
+      "name": "ring_outline",
+      "file": "05_ring_outline.png",
+      "order": 4,
+      "anim": [
+        {
+          "t": 1.6,
+          "opacity": 0,
+          "scale": 0.98
+        },
+        {
+          "t": 2.2,
+          "opacity": 1,
+          "scale": 1.0
+        }
+      ]
+    },
+    {
+      "name": "text_JERMUK",
+      "file": "06_text_JERMUK.png",
+      "order": 5,
+      "anim": [
+        {
+          "t": 2.4,
+          "opacity": 0,
+          "y": 12
+        },
+        {
+          "t": 3.0,
+          "opacity": 1,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "text_TRAVEL",
+      "file": "07_text_TRAVEL.png",
+      "order": 6,
+      "anim": [
+        {
+          "t": 2.7,
+          "opacity": 0,
+          "y": 12
+        },
+        {
+          "t": 3.3,
+          "opacity": 0.95,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "global_out",
+      "order": 99,
+      "anim": [
+        {
+          "t": 4.2,
+          "opacity": 1,
+          "scale": 1.0
+        },
+        {
+          "t": 4.8,
+          "opacity": 0,
+          "scale": 0.96
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Mountains/water layer has gentle float loop to simulate life; for real waterfall flow add a mask+displacement in AE or Lottie.",
+    "Ring can be animated as stroke-draw in vector form for best look.",
+    "Use easing: easeOutCubic for entrances, easeInOutSine for loops."
+  ]
+}

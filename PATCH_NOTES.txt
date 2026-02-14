@@ -1,0 +1,4 @@
+v4.1.5 PATCH (1 file)
+- src/components/layout/PageShell.tsx
+  * Desktop layout: removed md gap between DesktopSidebar and main so DesktopTopBar sits flush with sidebar (connected).
+  * Kept breathing space for page content with md:pl-6 applied only to Outlet wrapper.

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "jermuk-moscow",
+    "type": "hotel",
+    "title": "Jermuk Moscow Health Resort",
+    "subtitle": "Sanatorium • Medical • Classic",
+    "description": "«Մոսկվա» առողջարանը Ջերմուկի ամենահին և վստահելի բուժական կենտրոններից է։ Այն առաջարկում է պրոֆեսիոնալ բուժում, հանգիստ միջավայր և դասական հյուրընկալություն։",
+    "address": "Շահումյան փողոց 12, Ջերմուկ, Հայաստան",
+    "geo": {
+      "lat": 39.8425,
+      "lng": 45.671
+    },
+    "rating": 4.4,
+    "reviews": 210,
+    "currency": "AMD",
+    "priceFrom": 24000,
+    "tags": [
+      "sanatorium",
+      "medical",
+      "classic",
+      "location",
+      "restaurant",
+      "wifi"
+    ],
+    "amenities": [
+      "Բժշկական կենտրոն (լիարժեք սպասարկում)",
+      "Հանքային լոգանքներ",
+      "Երեքանգամյա սնունդ (դիետիկ)",
+      "Գրադարան և Կինոդահլիճ",
+      "Սրճարան",
+      "Բիլիարդ",
+      "Բանկոմատ",
+      "Անվճար Wi-Fi",
+      "Ավտոկայանատեղի"
+    ],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Jermuk_Moscow_Sanatorium.jpg",
+      "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Jermuk_Tsolk_Waterfall.jpg",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1501117716987-c8e1ecb210c7?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "jermuktravel",
+        "label": "Ամրագրել մեր կայքից (Զեղչով)",
+        "priority": 1,
+        "channels": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/+ITqRV82Y5OdkY2Ey"
+          },
+          {
+            "type": "whatsapp",
+            "url": "https://wa.me/37494222612"
+          }
+        ]
+      },
+      {
+        "provider": "official",
+        "label": "Ամրագրել հյուրանոցի կայքից",
+        "priority": 2,
+        "url": "http://jermukmoscow.am/"
+      },
+      {
+        "provider": "booking",
+        "label": "Booking.com",
+        "priority": 3,
+        "url": "https://www.booking.com/hotel/am/jermuk-moscow-health-resort.html"
+      }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  }
+]

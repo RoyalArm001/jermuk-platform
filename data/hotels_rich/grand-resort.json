@@ -1,0 +1,82 @@
+[
+  {
+    "id": "grand-resort",
+    "type": "hotel",
+    "title": "Grand Resort Jermuk",
+    "subtitle": "Luxury Sanatorium • Medical SPA • Wellness",
+    "description": "Grand Resort Jermuk-ը քաղաքի այցեքարտն է՝ միջազգային չափանիշներին համապատասխանող 5-աստղանի առողջարանային համալիր։ Այն առաջարկում է բուժման և հանգստի իդեալական համադրություն՝ հագեցած ժամանակակից բժշկական սարքավորումներով։",
+    "address": "Շահումյան փողոց 14, Ջերմուկ, Հայաստան",
+    "geo": {
+      "lat": 39.8416,
+      "lng": 45.6694
+    },
+    "rating": 4.9,
+    "reviews": 450,
+    "currency": "AMD",
+    "priceFrom": 38000,
+    "tags": [
+      "luxury",
+      "5-star",
+      "medical",
+      "spa",
+      "pool",
+      "sauna",
+      "fitness",
+      "restaurant",
+      "conference"
+    ],
+    "amenities": [
+      "Ներսային տաքացվող լողավազան (25մ)",
+      "Ջակուզի և Ֆիննական սաունա",
+      "Բժշկական SPA կենտրոն (Check-up)",
+      "Ֆիթնես կենտրոն (Technogym)",
+      "Ռեստորան (Շվեդական սեղան + Դիետիկ)",
+      "Լոբբի բար և Բիլիարդ",
+      "Կոնֆերանս դահլիճ (մինչև 150 անձ)",
+      "24/7 Ընդունարան և Concierge",
+      "Անվճար գերարագ Wi-Fi",
+      "Անվճար ավտոկայանատեղի",
+      "Մանկական խաղասենյակ"
+    ],
+    "gallery": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Jermuk%2C_Grand_Resort_Jermuk_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jermuk%2C_Grand_Resort_Jermuk_%282%29.jpg",
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?auto=format&fit=crop&w=1200&q=80",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e3/Jermuk_Tsolk_Waterfall.jpg"
+    ],
+    "bookingOptions": [
+      {
+        "provider": "jermuktravel",
+        "label": "Ամրագրել մեր կայքից (Զեղչով)",
+        "priority": 1,
+        "channels": [
+          {
+            "type": "telegram",
+            "url": "https://t.me/+ITqRV82Y5OdkY2Ey"
+          },
+          {
+            "type": "whatsapp",
+            "url": "https://wa.me/37494222612"
+          }
+        ]
+      },
+      {
+        "provider": "official",
+        "label": "Ամրագրել հյուրանոցի կայքից",
+        "priority": 2,
+        "url": "https://grandresortjermuk.com/"
+      },
+      {
+        "provider": "booking",
+        "label": "Booking.com",
+        "priority": 3,
+        "url": "https://www.booking.com/hotel/am/hyatt-place-jermuk.html"
+      }
+    ],
+    "status": "active",
+    "updatedAt": "2026-01-27"
+  }
+]

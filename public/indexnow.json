@@ -1,0 +1,17 @@
+{
+  "host": "jermuktravel.com",
+  "key": "jermuktravel-indexnow-2026",
+  "keyLocation": "https://jermuktravel.com/indexnow-key.txt",
+  "urlList": [
+    "https://jermuktravel.com/",
+    "https://jermuktravel.com/content/food/forte/page.html",
+    "https://jermuktravel.com/content/food/qarandzav/page.html",
+    "https://jermuktravel.com/content/hotels/armenia-hotel/page.html",
+    "https://jermuktravel.com/content/hotels/grand-resort/page.html",
+    "https://jermuktravel.com/content/hotels/jermuk-hotel-spa/page.html",
+    "https://jermuktravel.com/content/hotels/moselle/page.html",
+    "https://jermuktravel.com/content/hotels/olympia/page.html",
+    "https://jermuktravel.com/pages/hotels/grand.html",
+    "https://jermuktravel.com/pages/hotels/olympia.html"
+  ]
+}

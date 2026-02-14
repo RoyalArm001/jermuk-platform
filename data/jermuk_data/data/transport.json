@@ -1,0 +1,30 @@
+﻿[
+  {
+    "id": "taxi-service-jermuk",
+    "type": "transport",
+    "title": "Ջերմուկ Տաքսի Սերվիս",
+    "subtitle": "24/7 Ուղևորափոխադրում",
+    "description": "Արագ և հարմարավետ տաքսի ծառայություն:",
+    "priceFrom": 500,
+    "mode": "taxi",
+    "hours": "24/7",
+    "tags": ["taxi", "transfer"],
+    "gallery": ["https://images.unsplash.com/photo-1468818469686-0804e7536697?auto=format&fit=crop&w=800&q=80"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Պատվիրել", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  },
+  {
+    "id": "minibus-yerevan-jermuk",
+    "type": "transport",
+    "title": "Երևան - Ջերմուկ Երթուղային",
+    "subtitle": "Հասարակական տրանսպորտ",
+    "description": "Կանոնավոր ուղևորափոխադրում Երևանից Ջերմուկ:",
+    "priceFrom": 2000,
+    "mode": "bus",
+    "hours": "07:00 - 17:00",
+    "tags": ["bus", "public"],
+    "gallery": ["https://upload.wikimedia.org/wikipedia/commons/6/63/Mercedes-Benz_Sprinter_minibus_in_Yerevan.jpg"],
+    "bookingOptions": [{ "provider": "jermuktravel", "label": "Ժամանակացույց", "priority": 1, "channels": [{ "type": "telegram", "url": "https://t.me/+ITqRV82Y5OdkY2Ey" }, { "type": "whatsapp", "url": "https://wa.me/37494222612" }] }],
+    "status": "active"
+  }
+]

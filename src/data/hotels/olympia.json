@@ -1,0 +1,45 @@
+{
+  "id": "olympia",
+  "type": "hotels",
+  "title": {
+    "hy": "Olympia Resort (Jermuk Olympia)",
+    "ru": "Olympia Resort (Джермук)",
+    "en": "Olympia Resort (Jermuk)"
+  },
+  "desc": {
+    "hy": "Առողջարանային հյուրանոց՝ հանքային ջրերով, սպա և բուժական ծառայություններով։",
+    "ru": "Санаторий-отель со SPA и лечебными программами.",
+    "en": "Sanatorium hotel with spa and wellness programs."
+  },
+  "address": {
+    "hy": "Ջերմուկ, Շահումյան փ., 16",
+    "ru": "Джермук, ул. Шаумяна 16",
+    "en": "Jermuk, Shahumyan st. 16"
+  },
+  "phone": "+374 287 22 366",
+  "whatsapp": "37494444904",
+  "amenities": [
+    "Wi-Fi",
+    "Spa",
+    "Pool",
+    "Medical",
+    "Restaurant"
+  ],
+  "tags": [
+    "top",
+    "spa"
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1551887373-6bc8d96f2e20?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "geo": {
+    "lat": 39.841,
+    "lng": 45.672
+  },
+  "website": "https://jermukolympia.am/en/",
+  "booking_link": "https://jermukolympia.am/en/content/8/",
+  "rating": 4.4,
+  "price_level": 3
+}
