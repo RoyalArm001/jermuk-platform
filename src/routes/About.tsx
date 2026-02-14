@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Card from "../components/ui/Card";
 import { DATA } from "../lib/data";
 import { getFavs } from "../lib/favorites";
-import { getRemoteCounter } from "../lib/realViewsRemote";
+import { getRemoteCounter, TOTAL_KEY } from "../lib/realViewsRemote";
 
 function localTotalViews(): number {
   try {
@@ -11,7 +11,10 @@ function localTotalViews(): number {
     if (!raw) return 0;
     const map = JSON.parse(raw);
     if (!map || typeof map !== "object") return 0;
-    return Object.values(map).reduce((sum: number, v: any) => sum + (typeof v === "number" ? v : 0), 0);
+    return Object.values(map).reduce(
+      (sum: number, v: any) => sum + (typeof v === "number" ? v : 0),
+      0
+    );
   } catch {
     return 0;
   }
@@ -19,26 +22,51 @@ function localTotalViews(): number {
 
 export default function About() {
   const [totalViews, setTotalViews] = React.useState<number>(localTotalViews());
-  const [favCount, setFavCount] = React.useState<number>(0);
+  const [favCount, setFavCount] = React.useState<number>(() => {
+    try {
+      return getFavs().length;
+    } catch {
+      return 0;
+    }
+  });
 
   const pagesCount = React.useMemo(() => {
     try {
-      return Object.values(DATA).reduce((sum: number, arr: any) => sum + (Array.isArray(arr) ? arr.length : 0), 0);
+      return Object.values(DATA).reduce(
+        (sum: number, arr: any) => sum + (Array.isArray(arr) ? arr.length : 0),
+        0
+      );
     } catch {
       return 0;
     }
   }, []);
 
   React.useEffect(() => {
-    setFavCount(getFavs().length);
-
     let alive = true;
+
+    // Favorites (same-tab updates can be triggered by calling setFavCount again where toggling happens)
+    const refreshFavs = () => {
+      try {
+        setFavCount(getFavs().length);
+      } catch {
+        setFavCount(0);
+      }
+    };
+    refreshFavs();
+
+    // Remote total views (best-effort). If it fails, keep local fallback.
     (async () => {
-      const remote = await getRemoteCounter("PostID_WebsiteStats");
-      if (alive && typeof remote === "number") setTotalViews(remote);
+      try {
+        const remote = await getRemoteCounter(TOTAL_KEY);
+        if (alive && typeof remote === "number" && Number.isFinite(remote)) {
+          setTotalViews(remote);
+        }
+      } catch {
+        // ignore
+      }
     })();
 
-    const onStorage = () => setFavCount(getFavs().length);
+    const onStorage = () => refreshFavs();
     window.addEventListener("storage", onStorage);
     return () => {
       alive = false;

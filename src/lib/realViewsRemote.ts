@@ -1,103 +1,113 @@
-/**
- * Firebase RTDB "real views" counter (public read, constrained write: only +1).
- * Uses REST + ETag CAS to reduce race conditions.
- *
- * Expected RTDB Rules (per key):
- *   write allowed only when new == old+1 (or 1 if missing)
- */
-export type RealViewsConfig = {
-  databaseUrl: string; // e.g. https://jermukguide-f64ef-default-rtdb.firebaseio.com/
-  root: string;        // e.g. BlogID_201588890086708935
-};
+// Firebase RTDB remote view counters (REST, no SDK)
+// Safe for public read and "+1 only" write rules.
 
-const DEFAULT_DB_URL = "https://jermukguide-f64ef-default-rtdb.firebaseio.com/";
-const DEFAULT_ROOT = "BlogID_201588890086708935";
+const DB_URL: string =
+  (import.meta as any).env?.VITE_REALVIEWS_DB_URL ||
+  "https://jermukguide-f64ef-default-rtdb.firebaseio.com";
 
-// You can override via Vite env variables
-function cfg(): RealViewsConfig {
-  const databaseUrl = (import.meta as any).env?.VITE_REALVIEWS_DB_URL || DEFAULT_DB_URL;
-  const root = (import.meta as any).env?.VITE_REALVIEWS_ROOT || DEFAULT_ROOT;
-  return { databaseUrl: String(databaseUrl).replace(/\/$/, ""), root: String(root) };
+const ROOT_KEY: string =
+  (import.meta as any).env?.VITE_REALVIEWS_ROOT ||
+  "BlogID_201588890086708935";
+
+export const TOTAL_KEY: string =
+  (import.meta as any).env?.VITE_REALVIEWS_TOTAL_KEY ||
+  "PostID_WebsiteStats";
+
+function normBase(url: string) {
+  return url.endsWith("/") ? url.slice(0, -1) : url;
 }
 
-function buildUrl(key: string) {
-  const { databaseUrl, root } = cfg();
-  const safeKey = encodeURIComponent(key);
-  return `${databaseUrl}/${encodeURIComponent(root)}/${safeKey}.json`;
+function keyUrl(key: string) {
+  const base = normBase(DB_URL);
+  return `${base}/${encodeURIComponent(ROOT_KEY)}/${encodeURIComponent(key)}.json`;
 }
 
-async function getWithEtag(key: string): Promise<{ value: number | null; etag: string | null }> {
-  const res = await fetch(buildUrl(key), {
+async function readRaw(key: string): Promise<{ value: number; etag: string | null }> {
+  const res = await fetch(keyUrl(key), {
     method: "GET",
-    headers: {
-      "X-Firebase-ETag": "true",
-      "Accept": "application/json",
-    },
+    headers: { Accept: "application/json" },
   });
-  if (!res.ok) throw new Error(`RTDB GET failed: ${res.status}`);
+  if (!res.ok) return { value: 0, etag: null };
   const etag = res.headers.get("ETag");
-  const body = await res.json();
-  const value = typeof body === "number" ? body : null;
+  const json = await res.json();
+  const value = typeof json === "number" && Number.isFinite(json) ? json : 0;
   return { value, etag };
 }
 
-async function putWithIfMatch(key: string, next: number, etag: string | null): Promise<boolean> {
-  const headers: Record<string, string> = { "Content-Type": "application/json" };
-  if (etag) headers["if-match"] = etag;
-  const res = await fetch(buildUrl(key), {
+async function putIfMatch(key: string, nextValue: number, etag: string | null) {
+  const headers: Record<string, string> = {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+  };
+  if (etag) headers["If-Match"] = etag;
+
+  return await fetch(keyUrl(key), {
     method: "PUT",
     headers,
-    body: JSON.stringify(next),
+    body: JSON.stringify(nextValue),
   });
-  if (res.status === 412) return false; // precondition failed -> retry
-  if (!res.ok) throw new Error(`RTDB PUT failed: ${res.status}`);
-  return true;
 }
 
-/**
- * Increment a numeric counter stored at {root}/{key}.
- * Returns the new value if successful, or null if network/permission blocked.
- */
-export async function incrementRemoteCounter(key: string, maxRetries = 4): Promise<number | null> {
-  if (!key) return null;
-
-  for (let i = 0; i < maxRetries; i++) {
-    try {
-      const { value, etag } = await getWithEtag(key);
-      const next = (value ?? 0) + 1;
-      const ok = await putWithIfMatch(key, next, etag);
-      if (ok) return next;
-      // else retry
-    } catch {
-      return null;
-    }
-  }
-  return null;
+// Session guard: prevents duplicate increments caused by React StrictMode (DEV) or fast remounts.
+function ssKey(key: string) {
+  return `rv7:${ROOT_KEY}:${key}`;
 }
 
-/**
- * Read a remote counter value.
- */
-export async function getRemoteCounter(key: string): Promise<number | null> {
-  if (!key) return null;
+export function canCountThisSession(key: string, minutes = 10): boolean {
   try {
-    const res = await fetch(buildUrl(key), { method: "GET", headers: { "Accept": "application/json" } });
-    if (!res.ok) return null;
-    const body = await res.json();
-    return typeof body === "number" ? body : null;
+    const raw = sessionStorage.getItem(ssKey(key));
+    if (!raw) return true;
+    const age = Date.now() - Number(raw);
+    return !(age < minutes * 60 * 1000);
   } catch {
-    return null;
+    return true;
   }
 }
 
-/**
- * Increment both the page key and the global total key.
- * Returns { page, total } (numbers when available).
- */
-export async function incrementPageAndTotal(pageKey: string, totalKey = "PostID_WebsiteStats") {
-  const [page, total] = await Promise.all([
-    incrementRemoteCounter(pageKey),
-    incrementRemoteCounter(totalKey),
-  ]);
+function markCounted(key: string) {
+  try {
+    sessionStorage.setItem(ssKey(key), String(Date.now()));
+  } catch {}
+}
+
+export async function getRemoteCounter(key: string): Promise<number> {
+  // If DB_URL is empty, feature is disabled.
+  if (!DB_URL) return 0;
+  const { value } = await readRaw(key);
+  return value;
+}
+
+export async function incrementRemoteCounter(key: string, retries = 5): Promise<number> {
+  if (!DB_URL) return 0;
+
+  // Throttle in-session increments
+  if (!canCountThisSession(key)) {
+    return await getRemoteCounter(key);
+  }
+
+  for (let i = 0; i < retries; i++) {
+    const { value, etag } = await readRaw(key);
+    const next = (value || 0) + 1;
+
+    const res = await putIfMatch(key, next, etag);
+    if (res.ok) {
+      markCounted(key);
+      return next;
+    }
+
+    // 412 = ETag mismatch (concurrent update). Retry.
+    if (res.status === 412) continue;
+
+    // Other failures: stop retrying and return last known value.
+    return value || 0;
+  }
+
+  // Last attempt: return fresh value.
+  return await getRemoteCounter(key);
+}
+
+export async function incrementPageAndTotal(pageKey: string): Promise<{ page: number; total: number }> {
+  const page = await incrementRemoteCounter(pageKey);
+  const total = await incrementRemoteCounter(TOTAL_KEY);
   return { page, total };
 }

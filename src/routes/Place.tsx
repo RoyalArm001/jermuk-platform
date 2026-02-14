@@ -9,7 +9,7 @@ import Accordion from "../components/ui/Accordion";
 import { DATA } from "../lib/data";
 import { isFav, toggleFav } from "../lib/favorites";
 import { incrementView, getViews, formatViews } from "../lib/views";
-import { incrementPageAndTotal, getRemoteCounter } from "../lib/realViewsRemote";
+import { getRemoteCounter, incrementPageAndTotal, canCountThisSession } from "../lib/realViewsRemote";
 
 function dial(phone: string) {
   if (!phone) return;
@@ -28,36 +28,44 @@ export default function PlacePage() {
 
   const item: any = (DATA[type] || []).find((x: any) => x.id === id);
 
+  // Remote views (Firebase) — best-effort. If it fails, we keep local-only.
+  const remoteKey = React.useMemo(() => `${type}_${id}`, [type, id]);
+  const [remoteViews, setRemoteViews] = React.useState<number | null>(null);
+
   // local view counter (PWA-friendly, offline-safe)
-React.useEffect(() => {
-  if (!item) return;
-  incrementView(`${type}:${id}`);
-}, [type, id, item]);
+  React.useEffect(() => {
+    if (!item) return;
+    incrementView(`${type}:${id}`);
+  }, [type, id, item]);
 
-const localViews = item ? getViews(`${type}:${id}`) : 0;
+  // remote view counter (online). Order: read -> display -> increment (once per session) -> display.
+  React.useEffect(() => {
+    if (!item) return;
+    let alive = true;
 
-// remote "real views" (Firebase RTDB) — best-effort, non-blocking
-const [remoteViews, setRemoteViews] = React.useState<number | null>(null);
+    (async () => {
+      try {
+        // 1) Read current value
+        const current = await getRemoteCounter(remoteKey);
+        if (alive) setRemoteViews(current);
 
-React.useEffect(() => {
-  let alive = true;
-  if (!item) return;
+        // 2) Increment (guarded to avoid StrictMode double-counting)
+        if (canCountThisSession(remoteKey)) {
+          const res = await incrementPageAndTotal(remoteKey);
+          if (alive) setRemoteViews(res.page);
+        }
+      } catch {
+        // ignore
+      }
+    })();
 
-  const key = `${type}_${id}`; // remote key (safe, short)
-  (async () => {
-    // show current remote value quickly (if exists)
-    const current = await getRemoteCounter(key);
-    if (alive && typeof current === "number") setRemoteViews(current);
+    return () => {
+      alive = false;
+    };
+  }, [item, remoteKey]);
 
-    // increment both page + total (counts once per page-load; local session cooldown still applies)
-    const next = await incrementPageAndTotal(key);
-    if (alive && typeof next.page === "number") setRemoteViews(next.page);
-  })();
-
-  return () => { alive = false; };
-}, [type, id, item]);
-
-const views = remoteViews ?? localViews;
+  const localViews = item ? getViews(`${type}:${id}`) : 0;
+  const viewsToShow = remoteViews ?? localViews;
 
   return (
     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.22 }}>
@@ -83,7 +91,7 @@ const views = remoteViews ?? localViews;
             <div className="flex items-start justify-between gap-3">
               <div className="text-lg font-black">{item.title?.[lang]}</div>
               <div className="shrink-0 text-[11px] font-extrabold px-3 py-1.5 rounded-full border border-[var(--border)] text-[var(--muted)]">
-                👁 {formatViews(views)}
+                👁 {formatViews(viewsToShow)}
               </div>
             </div>
             <div className="mt-1 text-sm text-[var(--muted)] leading-relaxed">{item.desc?.[lang]}</div>

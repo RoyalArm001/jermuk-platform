@@ -6,6 +6,12 @@
 
 type Lang = "hy" | "ru" | "en";
 
+// Optional endpoint (dev/prod). If not set, translation feature becomes a no-op
+// and will not spam the console with 404s.
+const ENDPOINT: string = (import.meta as any).env?.VITE_TRANSLATE_ENDPOINT || "";
+
+let translateDisabled = false;
+
 function getTargets(): HTMLElement[] {
   const list = Array.from(
     document.querySelectorAll<HTMLElement>("[data-tr='1'],[data-i18n]")
@@ -15,6 +21,7 @@ function getTargets(): HTMLElement[] {
 }
 
 export async function translatePage(lang: Lang) {
+  if (translateDisabled) return;
   const nodes = getTargets();
 
   if (!lang || lang === "hy") {
@@ -31,11 +38,19 @@ export async function translatePage(lang: Lang) {
     el.dataset.hy = original;
 
     try {
-      const res = await fetch("/api/translate", {
+      if (!ENDPOINT) return; // not configured
+
+      const res = await fetch(ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: original, from: "hy", to: lang }),
       });
+
+      // If the endpoint doesn't exist in this environment, stop trying for this session.
+      if (res.status === 404 || res.status === 405) {
+        translateDisabled = true;
+        return;
+      }
       const data = await res.json();
       if (data?.translated) el.textContent = data.translated;
     } catch (e) {
